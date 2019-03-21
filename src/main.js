@@ -3,6 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'flexboxgrid/dist/flexboxgrid.css'
+import 'normalize.css'
+import './assets/styles/master.sass'
 
 Vue.config.productionTip = false
 
