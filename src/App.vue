@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <img src="./assets/img/kslogo.png">
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
+    <nav>
+      <div class="container">
+        <router-link to="/">Home</router-link>
+        <router-link to="/about">About</router-link>
+      </div>
+    </nav>
     <router-view/>
   </div>
 </template>
