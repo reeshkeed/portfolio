@@ -1,3 +1,4 @@
+//*** FONT FACE MIXIN ***//
 =font-face($woff2, $woff, $ttf, $weight, $style)
   @font-face
       font-family: "Public Sans webfont"
@@ -5,158 +6,56 @@
       font-weight: $weight
       font-style: $style
 
+//** Black **//
 +font-face('/static/webfonts/PublicSans-Black.woff2', '/static/webfonts/PublicSans-Black.woff', '/static/webfonts/PublicSans-Black.ttf', 900, normal)
 
+//** BlackItalic **//
++font-face('/static/webfonts/PublicSans-BlackItalic.woff2', '/static/webfonts/PublicSans-BlackItalic.woff', '/static/webfonts/PublicSans-BlackItalic.ttf', 900, italic)
 
+//** Bold **//
++font-face('/static/webfonts/PublicSans-Bold.woff2', '/static/webfonts/PublicSans-Bold.woff', '/static/webfonts/PublicSans-Bold.ttf', 700, normal)
 
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-BlackItalic.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-BlackItalic.woff') format('woff'),
-         url('/static/webfonts/PublicSans-BlackItalic.ttf') format('truetype')
-    font-weight: 900
-    font-style: italic
+//** BoldItalic **//
++font-face('/static/webfonts/PublicSans-BoldItalic.woff2', '/static/webfonts/PublicSans-BoldItalic.woff', '/static/webfonts/PublicSans-BoldItalic.ttf', 700, italic)
 
+//** ExtraBold **//
++font-face('/static/webfonts/PublicSans-ExtraBold.woff2', '/static/webfonts/PublicSans-ExtraBold.woff', '/static/webfonts/PublicSans-ExtraBold.ttf', 800, normal)
 
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-Bold.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-Bold.woff') format('woff'),
-         url('/static/webfonts/PublicSans-Bold.ttf') format('truetype')
-    font-weight: 700
-    font-style: normal
+//** ExtraBoldItalic **//
++font-face('/static/webfonts/PublicSans-ExtraBoldItalic.woff2', '/static/webfonts/PublicSans-ExtraBoldItalic.woff', '/static/webfonts/PublicSans-ExtraBoldItalic.ttf', 800, italic)
 
+//** Medium **//
++font-face('/static/webfonts/PublicSans-Medium.woff2', '/static/webfonts/PublicSans-Medium.woff', '/static/webfonts/PublicSans-Medium.ttf', 500, normal)
 
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-BoldItalic.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-BoldItalic.woff') format('woff'),
-         url('/static/webfonts/PublicSans-BoldItalic.ttf') format('truetype')
-    font-weight: 700
-    font-style: italic
+//** MediumItalic **//
++font-face('/static/webfonts/PublicSans-MediumItalic.woff2', '/static/webfonts/PublicSans-MediumItalic.woff', '/static/webfonts/PublicSans-MediumItalic.ttf', 500, italic)
 
+//** SemiBold **//
++font-face('/static/webfonts/PublicSans-SemiBold.woff2', '/static/webfonts/PublicSans-SemiBold.woff', '/static/webfonts/PublicSans-SemiBold.ttf', 600, normal)
 
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-ExtraBold.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-ExtraBold.woff') format('woff'),
-         url('/static/webfonts/PublicSans-ExtraBold.ttf') format('truetype')
-    font-weight: 800
-    font-style: normal
+//** SemiBoldItalic **//
++font-face('/static/webfonts/PublicSans-SemiBoldItalic.woff2', '/static/webfonts/PublicSans-SemiBoldItalic.woff', '/static/webfonts/PublicSans-SemiBoldItalic.ttf', 600, italic)
 
+//** ExtraLight **//
++font-face('/static/webfonts/PublicSans-ExtraLight.woff2', '/static/webfonts/PublicSans-ExtraLight.woff', '/static/webfonts/PublicSans-ExtraLight.ttf', 200, normal)
 
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-ExtraBoldItalic.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-ExtraBoldItalic.woff') format('woff'),
-         url('/static/webfonts/PublicSans-ExtraBoldItalic.ttf') format('truetype')
-    font-weight: 800
-    font-style: italic
+//** ExtraLightItalic **//
++font-face('/static/webfonts/PublicSans-ExtraLightItalic.woff2', '/static/webfonts/PublicSans-ExtraLightItalic.woff', '/static/webfonts/PublicSans-ExtraLightItalic.ttf', 200, italic)
 
+//** Light **//
++font-face('/static/webfonts/PublicSans-Light.woff2', '/static/webfonts/PublicSans-Light.woff', '/static/webfonts/PublicSans-Light.ttf', 300, normal)
 
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-Medium.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-Medium.woff') format('woff'),
-         url('/static/webfonts/PublicSans-Medium.ttf') format('truetype')
-    font-weight: 500
-    font-style: normal
+//** LightItalic **//
++font-face('/static/webfonts/PublicSans-LightItalic.woff2', '/static/webfonts/PublicSans-LightItalic.woff', '/static/webfonts/PublicSans-LightItalic.ttf', 300, italic)
 
+//** Regular **//
++font-face('/static/webfonts/PublicSans-Regular.woff2', '/static/webfonts/PublicSans-Regular.woff', '/static/webfonts/PublicSans-Regular.ttf', 400, normal)
 
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-MediumItalic.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-MediumItalic.woff') format('woff'),
-         url('/static/webfonts/PublicSans-MediumItalic.ttf') format('truetype')
-    font-weight: 500
-    font-style: italic
+//** Italic **//
++font-face('/static/webfonts/PublicSans-Italic.woff2', '/static/webfonts/PublicSans-Italic.woff', '/static/webfonts/PublicSans-Italic.ttf', 400, italic)
 
+//** Thin **//
++font-face('/static/webfonts/PublicSans-Thin.woff2', '/static/webfonts/PublicSans-Thin.woff', '/static/webfonts/PublicSans-Thin.ttf', 100, normal)
 
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-SemiBold.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-SemiBold.woff') format('woff'),
-         url('/static/webfonts/PublicSans-SemiBold.ttf') format('truetype')
-    font-weight: 600
-    font-style: normal
-
-
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-SemiBoldItalic.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-SemiBoldItalic.woff') format('woff'),
-         url('/static/webfonts/PublicSans-SemiBoldItalic.ttf') format('truetype')
-    font-weight: 600
-    font-style: italic
-
-
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-ExtraLight.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-ExtraLight.woff') format('woff'),
-         url('/static/webfonts/PublicSans-ExtraLight.ttf') format('truetype')
-    font-weight: 200
-    font-style: normal
-
-
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-ExtraLightItalic.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-ExtraLightItalic.woff') format('woff'),
-         url('/static/webfonts/PublicSans-ExtraLightItalic.ttf') format('truetype')
-    font-weight: 200
-    font-style: italic
-
-
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-Light.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-Light.woff') format('woff'),
-         url('/static/webfonts/PublicSans-Light.ttf') format('truetype')
-    font-weight: 300
-    font-style: normal
-
-
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-LightItalic.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-LightItalic.woff') format('woff'),
-         url('/static/webfonts/PublicSans-LightItalic.ttf') format('truetype')
-    font-weight: 300
-    font-style: italic
-
-
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-Regular.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-Regular.woff') format('woff'),
-         url('/static/webfonts/PublicSans-Regular.ttf') format('truetype')
-    font-weight: 400
-    font-style: normal
-
-
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-Italic.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-Italic.woff') format('woff'),
-         url('/static/webfonts/PublicSans-Italic.ttf') format('truetype')
-    font-weight: 400
-    font-style: italic
-
-
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-Thin.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-Thin.woff') format('woff'),
-         url('/static/webfonts/PublicSans-Thin.ttf') format('truetype')
-    font-weight: 100
-    font-style: normal
-
-
-@font-face
-    font-family: "Public Sans webfont"
-    src: url('/static/webfonts/PublicSans-ThinItalic.woff2') format('woff2'),
-         url('/static/webfonts/PublicSans-ThinItalic.woff') format('woff'),
-         url('/static/webfonts/PublicSans-ThinItalic.ttf') format('truetype')
-    font-weight: 100
-    font-style: italic
+//** ThinItalic **//
++font-face('/static/webfonts/PublicSans-ThinItalic.woff2', '/static/webfonts/PublicSans-ThinItalic.woff', '/static/webfonts/PublicSans-ThinItalic.ttf', 100, italic)
