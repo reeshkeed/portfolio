@@ -1,6 +1,11 @@
 <template>
   <div class="home">
-    <div class="img-cover"></div>
+    <div class="img-cover text-centered text-white">
+      <div class="">
+        <h1 id="me">GIRISH</h1>
+        <h1 id="me">DALOSO</h1>
+      </div>
+    </div>
     <h1>test</h1>
     <h1>test</h1>
     <h1>test</h1>
@@ -15,7 +20,7 @@ export default {
   name: "Home",
   data() {
     return {
-      msg: "Home"
+      description: "Designer / <developer>"
     };
   }
 };
@@ -27,11 +32,17 @@ export default {
   height: 100%
 
 .img-cover
-  margin-top: -5.1rem
-  background: linear-gradient(to right top, rgba(139, 160, 250, 0.8), rgba(142, 163, 250, 0.8), rgba(145, 165, 250, 0.8), rgba(148, 168, 250, 0.8), rgba(151, 170, 250, 0.8)), url('/static/img/home_cover.jpg') no-repeat center center
-  -webkit-background-size: cover
-  -moz-background-size: cover
-  -o-background-size: cover
-  background-size: cover
+  margin-top: -5.7rem
   height: 100%
+
+#me
+  font-family: 'Code Light'
+  font-size: 8rem
+  text-align: center
+  color: #8ba0fa
+
+#description
+  font-size: 2rem
+  font-weight: 200
+  text-align: center
 </style>

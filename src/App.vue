@@ -1,11 +1,47 @@
 <template>
   <div id="app">
+    <!-- Navbar -->
     <nav class="navbar">
       <div class="container">
         <div class="row center-xs">
-          <div class="col-xs-6">
+          <div class="col-xs-6 text-centered">
             <router-link class="link" to="/">Home</router-link>
             <router-link class="link" to="/projects">Projects</router-link>
+            <router-link class="link" to="/"
+              ><svg
+                class="logo"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 430.9 500"
+                enable-background="new 0 0 430.9 500"
+                xml:space="preserve"
+              >
+                <polygon points="189,337 189,337 189,337 " />
+                <path
+                  id="shape"
+                  d="M420,137.2l0-4.8l-25.9-14.9l-59.4,34.3l-77.4,44.6l-95.8,55.3l52.2,29.3l146.4-84.4l0,15.1l0,38.7l0,6.5
+                	l-0.1,75.8l-11.1,6.4l-3.6,2.1l-61.2,35.2l-68.2,39.3l-29.9-17.3l-25-14.5l0,0l-11.8-6.8l-64.1-36.8L71,332.2v-3c0,0,0.5,0,0.4-0.1
+                	l0.3-25.3L71.9,193l0.1-27l17-9.8l90.9-52.5l36.1-20.8l30.1,17.4l34.1,19.7l3.2,1.9l59.4-34.3l-40.5-23.4l-86.2-49.8l-90.1,52
+                	l-71,41L12.6,132l0,20.1l0,71.1l0,11.7c0,0,0,0,0,0l0,38.2l0,94l38.7,22.4l49,28.3l79,45.6l0,0l6.8,3.9l30.1,17.4l53.6-30.9l15-8.6
+                	l100.2-57.7l34.9-20.1l0.1-93.3l0.1-80.7l0-12.7l0-18.8L420,137.2z"
+                />
+                <path
+                  d="M189,337C189,337,189,337.1,189,337l0,0.1l0,0C189.1,337.1,189.1,337.1,189,337z"
+                />
+                <polygon
+                  fill="none"
+                  points="224.8,416.6 369.2,333 369.1,166.1 224.4,82.8 92,159.4 92,340.2 "
+                />
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g></svg
+            ></router-link>
             <router-link class="link" to="/samples">Samples</router-link>
             <router-link class="link" to="/contact">Contact</router-link>
           </div>
@@ -34,13 +70,15 @@ html, body
   height: 100%
 
 .navbar
-  padding: 2rem
+  margin: 1rem
 
 .link
-  color: #fff
+  color: #000
   text-decoration: none
-  margin-right: 0.5rem
+  margin-right: 1rem
   font-weight: 300
 
-.text-centered
+.logo
+  fill: #000
+  width: 3rem
 </style>
