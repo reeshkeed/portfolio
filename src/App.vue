@@ -3,13 +3,15 @@
     <!-- Navbar -->
     <nav class="navbar">
       <div class="container">
-        <div class="row center-xs">
-          <div class="col-xs-6 text-centered">
-            <router-link class="link" to="/">Home</router-link>
-            <router-link class="link" to="/projects">Projects</router-link>
-            <router-link class="link" to="/"><img class="logo" src="/static/img/girish_logo.svg" alt=""></router-link>
-            <router-link class="link" to="/samples">Samples</router-link>
-            <router-link class="link" to="/contact">Contact</router-link>
+        <div class="row">
+          <div class="col-xs-12 text-centered">
+            <router-link class="link to-left" to="/"><img class="logo" src="/static/img/girish_logo.svg" alt=""></router-link>
+            <div class="to-right">
+              <router-link class="link" to="/">Home</router-link>
+              <router-link class="link" to="/projects">Projects</router-link>
+              <router-link class="link" to="/samples">Samples</router-link>
+              <router-link class="link" to="/contact">Contact</router-link>
+            </div>
           </div>
         </div>
       </div>
