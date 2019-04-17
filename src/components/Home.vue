@@ -2,8 +2,8 @@
   <div class="home">
     <div class="img-cover text-centered text-white">
       <div class="">
-        <h1 id="me">GIRISH</h1>
-        <h1 id="me">DALOSO</h1>
+        <!--h1 id="me">GIRISH</h1>
+        <h1 id="me">DALOSO</h1-->
       </div>
     </div>
     <h1>test</h1>

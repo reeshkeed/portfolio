@@ -1,21 +1,19 @@
 <template>
   <div id="app">
     <!-- Navbar -->
-    <nav class="navbar">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-centered">
-            <router-link class="link to-left" to="/"><img class="logo" src="/static/img/girish_logo.svg" alt=""></router-link>
-            <div class="to-right">
-              <router-link class="link" to="/">Home</router-link>
-              <router-link class="link" to="/projects">Projects</router-link>
-              <router-link class="link" to="/samples">Samples</router-link>
-              <router-link class="link" to="/contact">Contact</router-link>
-            </div>
-          </div>
+    <div class="container">
+      <nav class="navbar text-centered">
+        <router-link class="navbar-first" to="/"
+          ><img class="navbar-logo" src="/static/img/girish_logo.svg" alt=""
+        /></router-link>
+        <div class="navbar-last">
+          <router-link class="navbar-link" to="/">Home</router-link>
+          <router-link class="navbar-link" to="/projects">Projects</router-link>
+          <router-link class="navbar-link" to="/samples">Samples</router-link>
+          <router-link class="navbar-link" to="/contact">Contact</router-link>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <!-- Render Views -->
     <router-view />
@@ -37,16 +35,28 @@ html, body
   -moz-osx-font-smoothing: grayscale
   height: 100%
 
+.navbar, .navbar-first, .navbar-last, .navbar-link
+  align-items: stretch
+  display: flex
+
 .navbar
-  margin: 1rem
+  margin: 0.5rem
 
-.link
-  color: #000
+.navbar-logo
+  height: 2.7rem
+
+.navbar-first
+  justify-content: flex-start
+  margin-right: auto
+
+.navbar-last
+  justify-content: flex-end
+  margin-left: auto
+
+.navbar-link
+  font-size: 1rem
+  color: #434343
   text-decoration: none
-  margin-right: 1rem
   font-weight: 300
-
-.logo
-  fill: #000
-  height: 3rem
+  padding: 0.8rem 0.5rem
 </style>
