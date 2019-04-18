@@ -4,7 +4,7 @@
     <div class="container">
       <nav class="navbar text-centered">
         <router-link class="navbar-first" to="/"
-          ><img class="navbar-logo" src="/static/img/girish_logo.svg" alt=""
+          ><img class="navbar-logo" src="/static/img/g_triangle.svg" alt=""
         /></router-link>
         <div class="navbar-last">
           <router-link class="navbar-link" to="/">Home</router-link>
