@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- Navbar -->
-    <div class="container">
+    <div class="nav container">
       <nav class="navbar text-centered">
         <router-link class="navbar-first" to="/"
           ><img class="navbar-logo" src="/static/img/g_triangle.svg" alt=""
@@ -35,6 +35,10 @@ html, body
   -moz-osx-font-smoothing: grayscale
   height: 100%
 
+.nav
+  z-index: 999
+  position: relative
+
 .navbar, .navbar-first, .navbar-last, .navbar-link
   align-items: stretch
   display: flex
@@ -55,7 +59,7 @@ html, body
 
 .navbar-link
   font-size: 1rem
-  color: #434343
+  color: #fff
   text-decoration: none
   font-weight: 300
   padding: 0.8rem 0.5rem
