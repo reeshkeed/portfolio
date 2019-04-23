@@ -1,9 +1,19 @@
 <template>
   <div class="home">
-    <div class="img-cover text-centered text-white">
-      <div class="">
+    <div class="slanted-container">
+      <div class="slanted-bg"></div>
+      <div class="slanted-content">
         <h1 class="me">GIRISH</h1>
         <h1 class="me">DALOSO</h1>
+      </div>
+    </div>
+
+    <section>
+      <h1>Section Content</h1>
+    </section>
+
+    <div class="img-cover text-centered text-white">
+      <div class="">
         <div class="">
           <p id="designer-text">{{ designer }}</p>
           <p id="developer-text">{{ developer }}</p>
