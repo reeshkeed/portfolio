@@ -2,7 +2,7 @@
   <div id="app">
     <!-- Navbar -->
     <div class="nav container">
-      <nav class="navbar text-centered">
+      <nav class="navbar">
         <router-link class="navbar-first" to="/"
           ><img class="navbar-logo" src="/static/img/g_triangle.svg" alt=""
         /></router-link>
@@ -18,9 +18,14 @@
     <!-- Render Views -->
     <router-view />
 
+    <!-- Footer -->
     <div class="footer">
       <div class="container">
-        <span class="icon-heart"></span>
+        <p class="footer-name">© Girish Daloso</p>
+        <div>
+          <a class="icon" href="https://github.com/reeshkeed" target="_blank"><span class="icon-github"></span></a>
+          <a class="icon" href="https://www.linkedin.com/in/girishdaloso/" target="_blank"><span class="icon-linkedin"></span></a>
+        </div>
       </div>
     </div>
   </div>
@@ -42,6 +47,8 @@ export default {
 
 .navbar
   margin: 3rem 0
+  display: flex
+  align-items: center
 
 .navbar-logo
   height: 2.7rem
@@ -63,5 +70,21 @@ export default {
   padding-left: 3rem
 
 .footer
+  padding: 5rem 0
+
+.footer-name
+  color: #555
+  margin-bottom: 2rem
+
+.icon
+  text-decoration: none
+  margin-right: 1rem
+  color: #cecece
+  font-size: 1.4rem
+
+.icon:hover
+  color: #434343
+
+//@media (max-width: 768px)
 
 </style>
