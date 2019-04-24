@@ -17,6 +17,7 @@
 
     <!-- Render Views -->
     <router-view />
+    
   </div>
 </template>
 
@@ -27,14 +28,6 @@ export default {
 </script>
 
 <style lang="sass">
-html, body
-  height: 100%
-
-#app
-  -webkit-font-smoothing: antialiased
-  -moz-osx-font-smoothing: grayscale
-  height: 100%
-
 .nav
   z-index: 999
   position: relative
@@ -44,7 +37,7 @@ html, body
   display: flex
 
 .navbar
-  margin: 0.5rem
+  margin: 3rem 0
 
 .navbar-logo
   height: 2.7rem
@@ -58,9 +51,10 @@ html, body
   margin-left: auto
 
 .navbar-link
-  font-size: 1rem
-  color: #7286c3
+  font-size: 0.9rem
+  color: #434343
   text-decoration: none
-  font-weight: 300
-  padding: 0.8rem 0.5rem
+  text-transform: uppercase
+  font-weight: 400
+  padding-left: 3rem
 </style>
