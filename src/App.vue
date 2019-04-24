@@ -17,7 +17,12 @@
 
     <!-- Render Views -->
     <router-view />
-    
+
+    <div class="footer">
+      <div class="container">
+        <span class="icon-heart"></span>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -28,9 +33,8 @@ export default {
 </script>
 
 <style lang="sass">
-.nav
-  z-index: 999
-  position: relative
+@import "/assets/sass/app.sass"
+@import "/assets/sass/style.css"
 
 .navbar, .navbar-first, .navbar-last, .navbar-link
   align-items: stretch
@@ -57,4 +61,7 @@ export default {
   text-transform: uppercase
   font-weight: 400
   padding-left: 3rem
+
+.footer
+
 </style>
