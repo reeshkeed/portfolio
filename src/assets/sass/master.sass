@@ -6,10 +6,8 @@
 *
   font-family: $font-public
 
-
 .text-centered
   display: flex
-  justify-content: center
   align-items: center
 
 .text-white
@@ -18,25 +16,11 @@
 .navbar-link:hover, .link:hover
   color: $secondary
 
-.slanted-container
-  position: relative
-  height: 85%
-  overflow: hidden
-  margin-top: -3.7rem
-  padding-top: 4rem
+.line
+  background-color: #434343
+  height: 0.4rem
+  width: 5rem
+  margin-bottom: 1rem
 
-.slanted-bg
-  position: absolute
-  top: 0
-  bottom: 0
-  right: 0
-  left: 0
-  width: 100%
-  height: 100%
-  background-image: linear-gradient(to right top, #6da7ff, #729eff, #7b94ff, #868afd, #937ef8)
-  transform: skewY(-4deg)
-  transform-origin: top left
-
-.slanted-content
-  position: relative
-  color: white
+.has-shadow
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28)

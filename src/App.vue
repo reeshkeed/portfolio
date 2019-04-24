@@ -59,7 +59,7 @@ html, body
 
 .navbar-link
   font-size: 1rem
-  color: #fff
+  color: #7286c3
   text-decoration: none
   font-weight: 300
   padding: 0.8rem 0.5rem

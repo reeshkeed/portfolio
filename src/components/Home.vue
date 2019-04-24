@@ -1,31 +1,25 @@
 <template>
   <div class="home">
-    <div class="slanted-container">
-      <div class="slanted-bg"></div>
-      <div class="slanted-content">
-        <h1 class="me">GIRISH</h1>
-        <h1 class="me">DALOSO</h1>
-      </div>
-    </div>
-
-    <section>
-      <h1>Section Content</h1>
-    </section>
-
-    <div class="img-cover text-centered text-white">
-      <div class="">
+    <div class="home-bg text-centered">
+      <div class="container">
         <div class="">
+          <div class="line"></div>
+          <h1 class="me">GIRISH</h1>
+          <h1 class="me">DALOSO</h1>
           <p id="designer-text">{{ designer }}</p>
           <p id="developer-text">{{ developer }}</p>
         </div>
       </div>
     </div>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
+
+    <div class="container">
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+    </div>
   </div>
 </template>
 
@@ -46,27 +40,27 @@ export default {
 .home
   height: 100%
 
-.img-cover
-  margin-top: -5.7rem
-  height: 100%
+.home-bg
+  background-image: url('/static/img/portfolio-bg.svg')
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  height: 85%
+  margin-top: -3.7rem
+  padding: 4rem
 
 .me
-  -webkit-background-clip: text
   margin: 0
-  color: transparent
-  font-size: 8rem
-  text-align: center
+  font-size: 9rem
   font-family: 'Monoton', cursive
   font-weight: 400
-  background-image: url('/static/img/bg.svg')
-  background-repeat: no-repeat
-  background-position: center
-  background-size: cover
+  color: #434343
 
 #designer-text, #developer-text
-  font-size: 1.5rem
-  color: #434343
+  font-size: 2rem
   display: inline-block
+  margin: 0
+  color: #434343
 
 #designer-text
   font-family: 'Norican', cursive
@@ -75,7 +69,10 @@ export default {
   font-family: 'Inconsolata', monospace
 
 #description
-  font-size: 2rem
+  font-size: 3rem
   font-weight: 200
   text-align: center
+
+.monotoned
+  height: 25rem
 </style>
