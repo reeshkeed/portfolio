@@ -1,12 +1,20 @@
 @import "variables.sass"
 @import url('https://fonts.googleapis.com/css?family=Monoton')
-@import url('https://fonts.googleapis.com/css?family=Inconsolata')
-@import url('https://fonts.googleapis.com/css?family=Norican')
 
 *
   font-family: $font-public
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
 
-.text-centered
+h2
+  margin-top: 0
+  margin-bottom: -1rem
+
+p
+  margin-top: 2rem
+  margin-bottom: 0
+
+.v-centered
   display: flex
   align-items: center
 
@@ -16,11 +24,17 @@
 .navbar-link:hover, .link:hover
   color: $secondary
 
+.fullscreen
+  height: 100vh
+
 .line
   background-color: #434343
   height: 0.4rem
-  width: 5rem
+  width: 4rem
   margin-bottom: 1rem
 
 .has-shadow
   box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28)
+
+.router-link-exact-active
+  color: $primary !important

@@ -1,13 +1,19 @@
 <template>
   <div class="home">
-    <div class="home-bg text-centered">
+    <div class="fullscreen v-centered">
       <div class="container">
-        <div class="">
-          <div class="line"></div>
-          <h1 class="me">GIRISH</h1>
-          <h1 class="me">DALOSO</h1>
-          <p id="designer-text">{{ designer }}</p>
-          <p id="developer-text">{{ developer }}</p>
+        <div class="row v-centered">
+          <div class="col-xs-9">
+            <div class="line"></div>
+            <h2 class="name first">GIRISH</h2>
+            <h2 class="name last">DALOSO</h2>
+            <p id="my-title">Designer & Developer</p>
+            <p id="description">I love producing simple but awesome design and converting it to code.</p>
+          </div>
+
+          <div class="col-xs-3">
+            <img class="monotoned" src="/static/img/monotoned.svg" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -37,42 +43,25 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass">
+
 .home
-  height: 100%
+  height: 100vh
+  margin-top: -8.7rem
 
-.home-bg
-  background-image: url('/static/img/portfolio-bg.svg')
-  background-position: center
-  background-repeat: no-repeat
-  background-size: cover
-  height: 85%
-  margin-top: -3.7rem
-  padding: 4rem
-
-.me
-  margin: 0
-  font-size: 9rem
+.name
+  font-size: 7.5rem
   font-family: 'Monoton', cursive
   font-weight: 400
   color: #434343
 
-#designer-text, #developer-text
-  font-size: 2rem
-  display: inline-block
-  margin: 0
-  color: #434343
-
-#designer-text
-  font-family: 'Norican', cursive
-
-#developer-text
-  font-family: 'Inconsolata', monospace
+#my-title
+  font-size: 2.5rem
+  font-weight: 100
 
 #description
-  font-size: 3rem
-  font-weight: 200
-  text-align: center
+  font-size: 1.5rem
+  font-weight: 100
 
 .monotoned
-  height: 25rem
+  height: 30rem
 </style>
