@@ -1,28 +1,29 @@
 <template>
   <div id="app">
     <!-- Navbar -->
-    <div class="nav container">
-      <nav class="navbar"  @click="toggleMenu">
-        <router-link class="navbar-first" to="/"
-          ><img class="navbar-logo" src="/static/img/g_triangle.svg" alt=""
-        /></router-link>
+    <nav class="navbar"  @click="toggleMenu">
+      <div class="container">
+        <div class="test">
+          <router-link class="navbar-first" to="/"
+            ><img class="navbar-logo" src="/static/img/g_triangle.svg" alt=""
+          /></router-link>
 
-        <div class="navbar-last">
           <div class="burger">
             <span></span>
             <span></span>
             <span></span>
           </div>
-
-          <div class="menu" :class="{ 'active': menuVisible }">
-            <router-link class="navbar-link" to="/">Home</router-link>
-            <router-link class="navbar-link" to="/projects">Projects</router-link>
-            <router-link class="navbar-link" to="/samples">Samples</router-link>
-            <router-link class="navbar-link" to="/contact">Contact</router-link>
-          </div>
         </div>
-      </nav>
-    </div>
+
+        <div class="navbar-items" :class="{ 'active': menuVisible }">
+          <router-link class="navbar-link" to="/">Home</router-link>
+          <router-link class="navbar-link" to="/projects">Projects</router-link>
+          <router-link class="navbar-link" to="/samples">Samples</router-link>
+          <router-link class="navbar-link" to="/contact">Contact</router-link>
+        </div>
+      </div>
+    </nav>
+
 
     <!-- Render Views -->
     <router-view />
@@ -60,25 +61,28 @@ export default {
 @import "/assets/sass/app.sass"
 @import "/assets/sass/style.css"
 
-.navbar, .navbar-first, .navbar-last, .navbar-link
+.navbar
+  padding: 3rem 0
   align-items: stretch
   display: flex
 
-.navbar
-  margin: 3rem 0
+.navbar > .container
+  align-items: stretch
   display: flex
-  align-items: center
+
+.test
+  align-items: stretch
+  display: flex
+  justify-content: flex-start
+  margin-right: auto
 
 .navbar-logo
   height: 2.7rem
 
 .navbar-first
-  justify-content: flex-start
-  margin-right: auto
-
-.navbar-last
-  justify-content: flex-end
-  margin-left: auto
+  align-items: stretch
+  display: flex
+  flex-shrink: 0
 
 .navbar-link
   font-size: 0.9rem
@@ -88,8 +92,20 @@ export default {
   font-weight: 400
   padding-left: 3rem
 
+.navbar-items
+  align-items: stretch
+  display: flex
+  flex-grow: 1
+  flex-shrink: 0
+
+  justify-content: flex-end
+  margin-left: auto
+  align-items: center
+
 .burger
   display: none
+  justify-content: flex-end
+  margin-left: auto
 
 .footer
   padding: 5rem 0
@@ -108,31 +124,50 @@ export default {
   color: #434343
 
 @media (max-width: 768px)
+  .navbar-first
+    justify-content: flex-start
+    margin-right: auto
+
+  .navbar > .container
+    display: initial
+
+  .navbar-link
+    display: block
+    padding-left: 0
+    padding-top: 0.8rem
+    padding-bottom: 0.8rem
+
   .burger
-    background: #ccc
+    justify-content: flex-end
     box-sizing: border-box
     display: block
-
     height: 52px
     width: 52px
     padding: 10px
-
     cursor: pointer
+    margin-left: auto
 
   .burger span
-    display: block
     border-top: 1px solid #333
+    display: block
     height: 13px
     width: 100%
 
-  .menu
-    background: #ccc
-    display: none
-
-  .menu.active
+  .navbar-items
     display: block
+    position: absolute
+    left: 0
+    right: 0
+    text-align: center
 
-  .menu .item
-    display: block
-    padding: 10px
+    max-height: 0px
+    overflow-y: hidden
+
+    background-color: #fff
+    box-shadow: 0px 7px 7px 0 rgba(32, 33, 36, 0.14)
+
+    transition: height, 0.5s ease
+
+  .navbar-items.active
+    max-height: 500px
 </style>
