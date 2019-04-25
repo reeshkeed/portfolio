@@ -20,20 +20,54 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-xs-4">
-          <div class="card">
-            <a class="card-link" href="#">
-              <img class="card-image" src="/static/img/projects/1.PNG" alt="">
-            </a>
-          </div>
+        <div class="col-xs-6">
+          <a href="#" class="card-link">
+            <div class="card">
+              <div class="card-content text-white">
+                <h2 class="card-title">Jose Rizal Website</h2>
+                <p class="card-description">Contains information about Rizal’s life and works.</p>
+              </div>
+              <img class="card-image" src="/static/img/projects/rizal.png" alt="">
+            </div>
+          </a>
         </div>
 
-        <div class="col-xs-4">
-          <div class="card">
-            <a class="card-link" href="#">
-              <img class="card-image" src="/static/img/projects/rizal.PNG" alt="">
-            </a>
-          </div>
+        <div class="col-xs-6">
+          <a href="#" class="card-link">
+            <div class="card">
+              <div class="card-content text-white">
+                <h2 class="card-title">Jose Rizal Website</h2>
+                <p class="card-description">Contains information about Rizal’s life and works.</p>
+              </div>
+              <img class="card-image" src="/static/img/projects/1.PNG" alt="">
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6">
+          <a href="#" class="card-link">
+            <div class="card">
+              <div class="card-content text-white">
+                <h2 class="card-title">Jose Rizal Website</h2>
+                <p class="card-description">Contains information about Rizal’s life and works.</p>
+              </div>
+              <img class="card-image" src="/static/img/projects/2.PNG" alt="">
+            </div>
+          </a>
+        </div>
+
+        <div class="col-xs-6">
+          <a href="#" class="card-link">
+            <div class="card">
+              <div class="card-content text-white">
+                <h2 class="card-title">Jose Rizal Website</h2>
+                <p class="card-description">Contains information about Rizal’s life and works.</p>
+              </div>
+              <img class="card-image" src="/static/img/projects/3.PNG" alt="">
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -73,13 +107,30 @@ export default {
   font-weight: 100
 
 .card
+  position: relative
   width: auto
+  overflow: hidden
+
+.card:hover img
+  -moz-transform: scale(1.1)
+  -webkit-transform: scale(1.1)
+  transform: scale(1.1)
 
 .card-image
-  width: 100%
+  max-width: 100%
 
-.card-link
-  height: auto
+.card-content
+  position: absolute
+  width: -webkit-fill-available
+  padding: 5.5rem 4.5rem
+
+.card-title
+  font-size: 2rem
+  font-weight: 400
+
+.card-description
+  font-size: 1.2rem
+  font-weight: 100
 
 //*** MEDIA Query ***//
 
