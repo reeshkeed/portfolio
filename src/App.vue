@@ -3,9 +3,9 @@
     <!-- Navbar -->
     <nav class="navbar"  @click="toggleMenu">
       <div class="container">
-        <div class="test">
-          <router-link class="navbar-first" to="/"
-            ><img class="navbar-logo" src="/static/img/g_triangle.svg" alt=""
+        <div class="navbar-menu">
+          <router-link class="navbar-logo" to="/"
+            ><img class="logo" src="/static/img/g_triangle.svg" alt=""
           /></router-link>
 
           <div class="burger">
@@ -70,16 +70,16 @@ export default {
   align-items: stretch
   display: flex
 
-.test
+.navbar-menu
   align-items: stretch
   display: flex
   justify-content: flex-start
   margin-right: auto
 
-.navbar-logo
+.logo
   height: 2.7rem
 
-.navbar-first
+.navbar-logo
   align-items: stretch
   display: flex
   flex-shrink: 0
@@ -124,7 +124,7 @@ export default {
   color: #434343
 
 @media (max-width: 768px)
-  .navbar-first
+  .navbar-logo
     justify-content: flex-start
     margin-right: auto
 
