@@ -17,6 +17,26 @@
         </div>
       </div>
     </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="card">
+            <a class="card-link" href="#">
+              <img class="card-image" src="/static/img/projects/1.PNG" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-4">
+          <div class="card">
+            <a class="card-link" href="#">
+              <img class="card-image" src="/static/img/projects/rizal.PNG" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -36,7 +56,6 @@ export default {
 <style lang="sass">
 
 .home
-  height: 100vh
   margin-top: -8.7rem
 
 .name
@@ -52,6 +71,15 @@ export default {
 #description
   font-size: 1.5rem
   font-weight: 100
+
+.card
+  width: auto
+
+.card-image
+  width: 100%
+
+.card-link
+  height: auto
 
 //*** MEDIA Query ***//
 
