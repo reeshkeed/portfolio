@@ -22,24 +22,24 @@
       <div class="row">
         <div class="col-xs-6">
           <a href="#" class="card-link">
-            <div class="card">
-              <div class="card-content text-white">
+            <div class="card-box">
+              <div class="card-content">
                 <h2 class="card-title">Jose Rizal Website</h2>
                 <p class="card-description">Contains information about Rizal’s life and works.</p>
               </div>
-              <img class="card-image" src="/static/img/projects/rizal.png" alt="">
+              <div class="card-image first-project"></div>
             </div>
           </a>
         </div>
 
         <div class="col-xs-6">
           <a href="#" class="card-link">
-            <div class="card">
-              <div class="card-content text-white">
+            <div class="card-box">
+              <div class="card-content">
                 <h2 class="card-title">Jose Rizal Website</h2>
                 <p class="card-description">Contains information about Rizal’s life and works.</p>
               </div>
-              <img class="card-image" src="/static/img/projects/1.PNG" alt="">
+              <div class="card-image second-project"></div>
             </div>
           </a>
         </div>
@@ -48,24 +48,24 @@
       <div class="row">
         <div class="col-xs-6">
           <a href="#" class="card-link">
-            <div class="card">
-              <div class="card-content text-white">
+            <div class="card-box">
+              <div class="card-content">
                 <h2 class="card-title">Jose Rizal Website</h2>
                 <p class="card-description">Contains information about Rizal’s life and works.</p>
               </div>
-              <img class="card-image" src="/static/img/projects/2.PNG" alt="">
+              <div class="card-image third-project"></div>
             </div>
           </a>
         </div>
 
         <div class="col-xs-6">
           <a href="#" class="card-link">
-            <div class="card">
-              <div class="card-content text-white">
+            <div class="card-box">
+              <div class="card-content">
                 <h2 class="card-title">Jose Rizal Website</h2>
                 <p class="card-description">Contains information about Rizal’s life and works.</p>
               </div>
-              <img class="card-image" src="/static/img/projects/3.PNG" alt="">
+              <div class="card-image fourth-project"></div>
             </div>
           </a>
         </div>
@@ -106,24 +106,6 @@ export default {
   font-size: 1.5rem
   font-weight: 100
 
-.card
-  position: relative
-  width: auto
-  overflow: hidden
-
-.card:hover img
-  -moz-transform: scale(1.1)
-  -webkit-transform: scale(1.1)
-  transform: scale(1.1)
-
-.card-image
-  max-width: 100%
-
-.card-content
-  position: absolute
-  width: -webkit-fill-available
-  padding: 5.5rem 4.5rem
-
 .card-title
   font-size: 2rem
   font-weight: 400
@@ -131,6 +113,44 @@ export default {
 .card-description
   font-size: 1.2rem
   font-weight: 100
+
+.card-box
+  position: relative
+  height: 544px
+  overflow: hidden
+
+.card-image
+  height: 100%
+  width: 100%
+  background-size: cover
+  background-position: center
+  transition: all 0.7s ease
+
+.first-project
+  background-image: url('/static/img/projects/rizal.PNG')
+
+.second-project
+  background-image: url('/static/img/projects/2.PNG')
+
+.third-project
+  background-image: url('/static/img/projects/3.PNG')
+
+.fourth-project
+  background-image: url('/static/img/projects/1.PNG')
+
+.card-image:hover,
+  transform: scale(1.1) rotate(1deg)
+  background-image: url('/static/img/projects/1.PNG')
+
+.card-content
+  position: absolute
+  top: 0
+  left: 0
+  width: -webkit-fill-available
+  padding: 4rem
+  color: #fff
+  border-radius: 1px 1px 0 0
+  z-index: 100
 
 //*** MEDIA Query ***//
 
