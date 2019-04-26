@@ -20,7 +20,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-xs-6">
+        <div class="col-lg-6 col-xs-12">
           <a href="#" class="card-link">
             <div class="card-box">
               <div class="card-content">
@@ -32,7 +32,7 @@
           </a>
         </div>
 
-        <div class="col-xs-6">
+        <div class="col-lg-6 col-xs-12">
           <a href="#" class="card-link">
             <div class="card-box">
               <div class="card-content">
@@ -46,7 +46,7 @@
       </div>
 
       <div class="row">
-        <div class="col-xs-6">
+        <div class="col-lg-6 col-xs-12">
           <a href="#" class="card-link">
             <div class="card-box">
               <div class="card-content">
@@ -58,7 +58,7 @@
           </a>
         </div>
 
-        <div class="col-xs-6">
+        <div class="col-lg-6 col-xs-12">
           <a href="#" class="card-link">
             <div class="card-box">
               <div class="card-content">
@@ -138,9 +138,9 @@ export default {
 .fourth-project
   background-image: url('/static/img/projects/1.PNG')
 
-.card-image:hover,
+.card-image:hover
   transform: scale(1.1) rotate(1deg)
-  background-image: url('/static/img/projects/1.PNG')
+  //background-image: url('/static/img/projects/1.PNG')
 
 .card-content
   position: absolute
@@ -195,5 +195,11 @@ export default {
 
   #description
     font-size: 1.1rem
+
+  .card-image
+    background-position: left
+
+  .card-image:hover
+    transform: none
 
 </style>
