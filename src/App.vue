@@ -148,9 +148,9 @@ export default {
     margin-left: auto
 
   .burger span
-    border-top: 1px solid #333
+    border-top: 2px solid #434343
     display: block
-    height: 13px
+    height: 8px
     width: 100%
 
   .navbar-items
