@@ -116,7 +116,7 @@ export default {
 
 .card-box
   position: relative
-  height: 544px
+  height: 644px
   overflow: hidden
 
 .card-image
@@ -147,7 +147,7 @@ export default {
   top: 0
   left: 0
   width: -webkit-fill-available
-  padding: 4rem
+  padding: 6rem 4rem
   color: #fff
   border-radius: 1px 1px 0 0
   z-index: 100
