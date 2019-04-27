@@ -1,6 +1,8 @@
 <template>
-  <div class="projects">
-    <h1>Projects</h1>
+  <div class="work">
+    <div class="container">
+      <h2>Works</h2>
+    </div>
   </div>
 </template>
 

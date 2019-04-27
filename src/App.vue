@@ -17,7 +17,7 @@
 
         <div class="navbar-items" :class="{ 'active': menuVisible }">
           <router-link class="navbar-link" to="/">Home</router-link>
-          <router-link class="navbar-link" to="/projects">Projects</router-link>
+          <router-link class="navbar-link" to="/work">Work</router-link>
           <router-link class="navbar-link" to="/samples">Samples</router-link>
           <router-link class="navbar-link" to="/contact">Contact</router-link>
         </div>

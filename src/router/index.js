@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "@/components/Home";
-import Projects from "@/components/Projects";
+import Work from "@/components/Work";
 import Samples from "@/components/Samples";
 import Contact from "@/components/Contact";
 
@@ -17,9 +17,9 @@ export default new Router({
       component: Home
     },
     {
-      path: "/projects",
-      name: "Projects",
-      component: Projects
+      path: "/work",
+      name: "Work",
+      component: Work
     },
     {
       path: "/samples",
