@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+
     <div class="fullscreen v-centered">
       <div class="container">
         <div class="row v-centered">
@@ -36,8 +37,8 @@
           <a href="#" class="card-link">
             <div class="card-box">
               <div class="card-content">
-                <h2 class="card-title">Jose Rizal Website</h2>
-                <p class="card-description">Contains information about Rizal’s life and works.</p>
+                <h2 class="card-title">iParentPortal</h2>
+                <p class="card-description">School RFID Solutions and Parent Apps.</p>
               </div>
               <div class="card-image second-project"></div>
             </div>
@@ -50,8 +51,8 @@
           <a href="#" class="card-link">
             <div class="card-box">
               <div class="card-content">
-                <h2 class="card-title">Jose Rizal Website</h2>
-                <p class="card-description">Contains information about Rizal’s life and works.</p>
+                <h2 class="card-title">iCon</h2>
+                <p class="card-description">A Wi-fi Vending Machine</p>
               </div>
               <div class="card-image third-project"></div>
             </div>
@@ -62,8 +63,8 @@
           <a href="#" class="card-link">
             <div class="card-box">
               <div class="card-content">
-                <h2 class="card-title">Jose Rizal Website</h2>
-                <p class="card-description">Contains information about Rizal’s life and works.</p>
+                <h2 class="card-title">Xhanders</h2>
+                <p class="card-description">A sample for restaurant website.</p>
               </div>
               <div class="card-image fourth-project"></div>
             </div>
@@ -71,6 +72,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -127,20 +129,24 @@ export default {
   transition: all 0.7s ease
 
 .first-project
-  background-image: url('/static/img/projects/rizal.PNG')
+  background-image: url('/static/img/projects/rizal.png')
+  background-color: #8dc8ed
 
 .second-project
-  background-image: url('/static/img/projects/2.PNG')
+  background-image: url('/static/img/projects/ipp.png')
+  background-color: #7be0c2
 
 .third-project
-  background-image: url('/static/img/projects/3.PNG')
+  background-image: url('/static/img/projects/icon.png')
+  background-color: #eed791
 
 .fourth-project
-  background-image: url('/static/img/projects/1.PNG')
+  background-image: url('/static/img/projects/xhanders.png')
+  background-color: #ec909d
 
 .card-image:hover
   transform: scale(1.1) rotate(1deg)
-  //background-image: url('/static/img/projects/1.PNG')
+  background-color: #aba9e7
 
 .card-content
   position: absolute
