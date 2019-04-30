@@ -120,6 +120,7 @@ export default {
   position: relative
   height: 644px
   overflow: hidden
+  border-radius: 0.2rem
 
 .card-image
   height: 100%
