@@ -1,57 +1,51 @@
 <template>
   <div class="work">
     <div class="container">
-      <h2>Works</h2>
+      <h2>Work</h2>
 
       <div class="row">
-        <div class="col-lg-6 col-xs-12">
-          <a href="#" class="card-link">
-            <div class="card-box">
-              <div class="card-content">
-                <h2 class="card-title">Jose Rizal Website</h2>
-                <p class="card-description">Contains information about Rizal’s life and works.</p>
-              </div>
-              <div class="card-image first-project"></div>
-            </div>
-          </a>
+        <div class="col-lg-4">
+          <div class="box" style="height: 100%">
+
+          </div>
         </div>
 
-        <div class="col-lg-6 col-xs-12">
-          <a href="#" class="card-link">
-            <div class="card-box">
-              <div class="card-content">
-                <h2 class="card-title">Jose Rizal Website</h2>
-                <p class="card-description">Contains information about Rizal’s life and works.</p>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="box">
+
               </div>
-              <div class="card-image second-project"></div>
             </div>
-          </a>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box">
+
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="box">
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-lg-6 col-xs-12">
-          <a href="#" class="card-link">
-            <div class="card-box">
-              <div class="card-content">
-                <h2 class="card-title">Jose Rizal Website</h2>
-                <p class="card-description">Contains information about Rizal’s life and works.</p>
-              </div>
-              <div class="card-image third-project"></div>
-            </div>
-          </a>
+        <div class="col-lg-6">
+          <div class="box">
+
+          </div>
         </div>
 
-        <div class="col-lg-6 col-xs-12">
-          <a href="#" class="card-link">
-            <div class="card-box">
-              <div class="card-content">
-                <h2 class="card-title">Jose Rizal Website</h2>
-                <p class="card-description">Contains information about Rizal’s life and works.</p>
-              </div>
-              <div class="card-image fourth-project"></div>
-            </div>
-          </a>
+        <div class="col-lg-6">
+          <div class="box">
+
+          </div>
         </div>
       </div>
     </div>
@@ -63,3 +57,9 @@ export default {
   name: "Projects"
 };
 </script>
+
+<style lang="sass">
+  .box
+    height: 10rem
+    background: #434343
+</style>
