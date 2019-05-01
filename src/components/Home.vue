@@ -20,18 +20,8 @@
     </div>
 
     <div class="container">
+      <p class="small-subtitle">Recent work</p>
       <div class="row">
-        <div class="col-lg-6 col-xs-12">
-          <a href="#" class="card-link">
-            <div class="card-box">
-              <div class="card-content">
-                <h2 class="card-title">Jose Rizal Website</h2>
-                <p class="card-description">Contains information about Rizal’s life and works.</p>
-              </div>
-              <div class="card-image first-project"></div>
-            </div>
-          </a>
-        </div>
 
         <div class="col-lg-6 col-xs-12">
           <a href="#" class="card-link">
@@ -44,9 +34,7 @@
             </div>
           </a>
         </div>
-      </div>
 
-      <div class="row">
         <div class="col-lg-6 col-xs-12">
           <a href="#" class="card-link">
             <div class="card-box">
@@ -59,17 +47,6 @@
           </a>
         </div>
 
-        <div class="col-lg-6 col-xs-12">
-          <a href="#" class="card-link">
-            <div class="card-box">
-              <div class="card-content">
-                <h2 class="card-title">Xhanders</h2>
-                <p class="card-description">A sample for restaurant website.</p>
-              </div>
-              <div class="card-image fourth-project"></div>
-            </div>
-          </a>
-        </div>
       </div>
     </div>
 
@@ -108,56 +85,11 @@ export default {
   font-size: 1.5rem
   font-weight: 100
 
-.card-title
-  font-size: 2rem
-  font-weight: 400
-
-.card-description
-  font-size: 1.2rem
-  font-weight: 100
-
-.card-box
+.featured
   position: relative
-  height: 644px
-  overflow: hidden
-  border-radius: 0.2rem
 
-.card-image
-  height: 100%
-  width: 100%
-  background-size: cover
-  background-position: center
-  transition: all 0.7s ease
 
-.first-project
-  background-image: url('/static/img/projects/rizal.png')
-  background-color: #8dc8ed
 
-.second-project
-  background-image: url('/static/img/projects/ipp.png')
-  background-color: #7be0c2
-
-.third-project
-  background-image: url('/static/img/projects/icon.png')
-  background-color: #eed791
-
-.fourth-project
-  background-image: url('/static/img/projects/xhanders.png')
-  background-color: #ec909d
-
-.card-image:hover
-  transform: scale(1.1) rotate(1deg)
-  background-color: #aba9e7
-
-.card-content
-  position: absolute
-  top: 0
-  left: 0
-  width: -webkit-fill-available
-  padding: 6rem 4rem
-  color: #fff
-  border-radius: 1px 1px 0 0
-  z-index: 100
 
 //*** MEDIA Query ***//
 
@@ -202,11 +134,5 @@ export default {
 
   #description
     font-size: 1.1rem
-
-  .card-image
-    background-position: left
-
-  .card-image:hover
-    transform: none
 
 </style>
