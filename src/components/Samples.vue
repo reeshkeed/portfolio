@@ -4,7 +4,7 @@
       <h1 class="title">Sample</h1>
 
       <div class="col-lg-6 col-xs-12">
-        <a href="#" class="card-link">
+        <router-link to="/xhander">
           <div class="card-box">
             <div class="card-content">
               <h2 class="card-title">Xhander's</h2>
@@ -12,7 +12,7 @@
             </div>
             <div class="card-image fourth-project"></div>
           </div>
-        </a>
+        </router-link>
       </div>
     </div>
   </div>

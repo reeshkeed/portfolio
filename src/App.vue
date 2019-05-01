@@ -33,8 +33,8 @@
       <div class="container">
         <p class="footer-name">© Girish Daloso</p>
         <div>
-          <a class="icon" href="https://github.com/reeshkeed" target="_blank"><span class="icon-github"></span></a>
-          <a class="icon" href="https://www.linkedin.com/in/girishdaloso/" target="_blank"><span class="icon-linkedin"></span></a>
+          <a class="footer-icon" href="https://github.com/reeshkeed" target="_blank"><span class="icon-github"></span></a>
+          <a class="footer-icon" href="https://www.linkedin.com/in/girishdaloso/" target="_blank"><span class="icon-linkedin"></span></a>
         </div>
       </div>
     </div>
@@ -114,13 +114,13 @@ export default {
   color: #555
   margin-bottom: 2rem
 
-.icon
+.footer-icon
   text-decoration: none
   margin-right: 1rem
   color: #cecece
   font-size: 1.4rem
 
-.icon:hover
+.footer-icon:hover
   color: #434343
 
 @media (max-width: 768px)

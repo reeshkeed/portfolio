@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-xs-12">
-            <a href="#" class="card-link">
+            <router-link to="/ipp">
               <div class="card-box">
                 <div class="card-content">
                   <h2 class="card-title">iParentPortal</h2>
@@ -14,11 +14,11 @@
                 </div>
                 <div class="card-image second-project"></div>
               </div>
-            </a>
+            </router-link>
           </div>
 
           <div class="col-lg-6 col-xs-12">
-            <a href="#" class="card-link">
+            <router-link to="/rizal">
               <div class="card-box">
                 <div class="card-content">
                   <h2 class="card-title">Jose Rizal Website</h2>
@@ -26,13 +26,13 @@
                 </div>
                 <div class="card-image first-project"></div>
               </div>
-            </a>
+            </router-link>
           </div>
         </div>
 
         <div class="row">
           <div class="col-lg-6 col-xs-12">
-            <a href="#" class="card-link">
+            <router-link to="/icon">
               <div class="card-box">
                 <div class="card-content">
                   <h2 class="card-title">iCon</h2>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="card-image third-project"></div>
               </div>
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
