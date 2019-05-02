@@ -26,7 +26,12 @@
 
 
     <!-- Render Views -->
-    <router-view />
+    <transition
+      name="slide-fade"
+      mode="out-in"
+    >
+      <router-view/>
+    </transition>
 
     <!-- Footer -->
     <div class="footer">
