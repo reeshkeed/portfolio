@@ -19,7 +19,7 @@
           </ul>
 
           <h2 class="subtitle">View</h2>
-          <img class="view" src="/static/img/projects/xhander_web.png" alt="">
+          <img class="view has-shadow" src="/static/img/projects/xhander_web.png" alt="">
         </div>
       </div>
     </div>
