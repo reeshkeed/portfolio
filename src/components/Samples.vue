@@ -1,15 +1,15 @@
 <template>
   <div class="samples">
     <div class="container">
-      <h1 class="title">Sample</h1>
+      <h1 class="title">Samples</h1>
 
-      <router-link class="card-link" to="/ipp">
+      <router-link class="card-link" to="/xhander">
         <div class="wide-card is-red">
           <div class="row">
             <div class="col-lg-7 col-xs-12 v-centered">
               <div class="wide-card-content text-white">
                 <h2 class="wide-title">Xhander's</h2>
-                <p class="card-description">A sample for restaurant website.</p>
+                <p class="card-description">A template for restaurant website.</p>
               </div>
             </div>
 
