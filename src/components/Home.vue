@@ -9,7 +9,7 @@
             <h2 class="name">GIRISH</h2>
             <h2 class="name">DALOSO</h2>
             <p id="my-title">Designer & Developer</p>
-            <p id="description">I love producing simple but awesome design and converting it to code.</p>
+            <p id="intro">I love producing simple but awesome design and converting it to code.</p>
           </div>
 
           <div class="col-xs-3 mobile-hidden">
@@ -81,7 +81,7 @@ export default {
   font-size: 2.5rem
   font-weight: 100
 
-#description
+#intro
   font-size: 1.5rem
   font-weight: 100
 
@@ -102,7 +102,7 @@ export default {
   #my-title
     font-size: 2rem
 
-  #description
+  #intro
     font-size: 1.3rem
 
 @media (min-width: 1024px) and (max-width: 1215px)
@@ -112,7 +112,7 @@ export default {
   #my-title
     font-size: 1.7rem
 
-  #description
+  #intro
     font-size: 1.2rem
 
 @media (min-width: 769px) and (max-width: 1023px)
@@ -122,7 +122,7 @@ export default {
   #my-title
     font-size: 1.6rem
 
-  #description
+  #intro
     font-size: 1.2rem
 
 @media (max-width: 768px)
@@ -132,7 +132,7 @@ export default {
   #my-title
     font-size: 1.4rem
 
-  #description
+  #intro
     font-size: 1.1rem
 
 </style>
