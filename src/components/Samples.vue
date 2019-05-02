@@ -3,17 +3,22 @@
     <div class="container">
       <h1 class="title">Sample</h1>
 
-      <div class="col-lg-6 col-xs-12">
-        <router-link to="/xhander">
-          <div class="card-box">
-            <div class="card-content">
-              <h2 class="card-title">Xhander's</h2>
-              <p class="card-description">A sample for restaurant website.</p>
+      <router-link class="card-link" to="/ipp">
+        <div class="wide-card is-red">
+          <div class="row">
+            <div class="col-lg-7 col-xs-12 v-centered">
+              <div class="wide-card-content text-white">
+                <h2 class="wide-title">Xhander's</h2>
+                <p class="card-description">A sample for restaurant website.</p>
+              </div>
             </div>
-            <div class="card-image fourth-project"></div>
+
+            <div class="col-lg-5 col-xs-12">
+              <div class="wide-image fourth-project-wide"></div>
+            </div>
           </div>
-        </router-link>
-      </div>
+        </div>
+      </router-link>
     </div>
   </div>
 </template>

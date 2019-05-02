@@ -24,8 +24,8 @@ p
   padding-bottom: 1rem
 
 .v-centered
-  display: flex
-  align-items: center
+	display: flex
+	align-items: center
 
 .text-center
   text-align: center
@@ -50,6 +50,9 @@ p
 
 .router-link-exact-active
   color: $primary !important
+
+.card-link
+  text-decoration: none
 
 .card-title
   font-size: 2rem
@@ -86,21 +89,57 @@ p
   border-radius: 1px 1px 0 0
   z-index: 100
 
-.first-project
-  background-image: url('/static/img/projects/rizal.png')
-  background-color: #8dc8ed
-
-.second-project
-  background-image: url('/static/img/projects/ipp.png')
+.is-green
   background-color: #7be0c2
 
-.third-project
-  background-image: url('/static/img/projects/icon.png')
+.is-blue
+  background-color: #8dc8ed
+
+.is-yellow
   background-color: #eed791
 
-.fourth-project
-  background-image: url('/static/img/projects/xhanders.png')
+.is-red
   background-color: #ec909d
+
+.first-project-wide
+  background-image: url('/static/img/projects/ipp_work.png')
+
+.second-project-wide
+  background-image: url('/static/img/projects/rizal_work.png')
+
+.third-project-wide
+  background-image: url('/static/img/projects/icon_work.png')
+
+.fourth-project-wide
+  background-image: url('/static/img/projects/xhander_work.png')
+
+.first-project
+  background-image: url('/static/img/projects/rizal.png')
+
+.first-featured
+  background-image: url('/static/img/projects/ipp.png')
+
+.second-featured
+  background-image: url('/static/img/projects/icon.png')
+
+.wide-card
+  margin-bottom: 1rem
+  border-radius: 0.2rem
+
+.wide-card:hover
+  transform: scale(1.02)
+
+.wide-card .row
+  padding-bottom: 0
+
+.wide-card-content
+  padding: 4rem
+  width: 100%
+
+.wide-image
+  padding-top: 86%
+  background-position: left
+  background-size: cover
 
 @media (min-width: 1408px)
   .container
@@ -125,6 +164,15 @@ p
   .col-xs-offset-11, .col-xs-offset-12
     padding: 0.5rem
 
+  .wide-card .col-xs-12
+    padding-bottom: 0
+
+  .wide-card-content
+    padding-bottom: 0
+
+  .wide-image
+    margin-left: 2rem
+
 @media (min-width: 769px) and (max-width: 1023px)
   .container
     width: 45rem
@@ -139,6 +187,15 @@ p
   .col-xs-offset-7, .col-xs-offset-8, .col-xs-offset-9, .col-xs-offset-10,
   .col-xs-offset-11, .col-xs-offset-12
     padding: 0.5rem
+
+  .wide-card .col-xs-12
+    padding-bottom: 0
+
+  .wide-card-content
+    padding-bottom: 0
+
+  .wide-image
+    margin-left: 2rem
 
 @media (max-width: 768px)
   .container
@@ -174,3 +231,12 @@ p
 
   .card-image:hover
     transform: none
+
+  .wide-card .col-xs-12
+    padding-bottom: 0
+
+  .wide-card-content
+    padding-bottom: 0
+
+  .wide-image
+    margin-left: 2rem

@@ -4,47 +4,59 @@
       <h1 class="title">Work</h1>
 
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-xs-12">
-            <router-link to="/ipp">
-              <div class="card-box">
-                <div class="card-content">
-                  <h2 class="card-title">iParentPortal</h2>
+
+        <router-link class="card-link" to="/ipp">
+          <div class="wide-card is-green">
+            <div class="row">
+              <div class="col-lg-7 col-xs-12 v-centered">
+                <div class="wide-card-content text-white">
+                  <h2 class="wide-title">iParentPortal</h2>
                   <p class="card-description">School RFID Solutions and Parent Apps.</p>
                 </div>
-                <div class="card-image second-project"></div>
               </div>
-            </router-link>
-          </div>
 
-          <div class="col-lg-6 col-xs-12">
-            <router-link to="/rizal">
-              <div class="card-box">
-                <div class="card-content">
-                  <h2 class="card-title">Jose Rizal Website</h2>
+              <div class="col-lg-5 col-xs-12">
+                <div class="wide-image first-project-wide"></div>
+              </div>
+            </div>
+          </div>
+        </router-link>
+
+        <router-link class="card-link" to="/ipp">
+          <div class="wide-card is-blue">
+            <div class="row">
+              <div class="col-lg-7 col-xs-12 v-centered">
+                <div class="wide-card-content text-white">
+                  <h2 class="wide-title">Jose Rizal Website</h2>
                   <p class="card-description">Contains information about Rizal’s life and works.</p>
                 </div>
-                <div class="card-image first-project"></div>
               </div>
-            </router-link>
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="col-lg-6 col-xs-12">
-            <router-link to="/icon">
-              <div class="card-box">
-                <div class="card-content">
-                  <h2 class="card-title">iCon</h2>
-                  <p class="card-description">A Wi-fi Vending Machine</p>
+              <div class="col-lg-5 col-xs-12">
+                <div class="wide-image second-project-wide"></div>
+              </div>
+            </div>
+          </div>
+        </router-link>
+
+        <router-link class="card-link" to="/ipp">
+          <div class="wide-card is-yellow">
+            <div class="row">
+              <div class="col-lg-7 col-xs-12 v-centered">
+                <div class="wide-card-content text-white">
+                  <h2 class="wide-title">iCon</h2>
+                  <p class="card-description">A Wi-fi Vending Machine.</p>
                 </div>
-                <div class="card-image third-project"></div>
               </div>
-            </router-link>
-          </div>
-        </div>
-      </div>
 
+              <div class="col-lg-5 col-xs-12">
+                <div class="wide-image third-project-wide"></div>
+              </div>
+            </div>
+          </div>
+        </router-link>
+
+      </div>
     </div>
   </div>
 </template>

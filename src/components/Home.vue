@@ -30,7 +30,7 @@
                 <h2 class="card-title">iParentPortal</h2>
                 <p class="card-description">School RFID Solutions and Parent Apps.</p>
               </div>
-              <div class="card-image second-project"></div>
+              <div class="card-image first-featured is-green"></div>
             </div>
           </router-link>
         </div>
@@ -42,7 +42,7 @@
                 <h2 class="card-title">iCon</h2>
                 <p class="card-description">A Wi-fi Vending Machine</p>
               </div>
-              <div class="card-image third-project"></div>
+              <div class="card-image second-featured is-yellow"></div>
             </div>
           </router-link>
         </div>
