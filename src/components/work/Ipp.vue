@@ -10,9 +10,12 @@
 
         <div class="project-background">
           <h2 class="subtitle">About the Project</h2>
-          <p class="description">iParentPortal Inc. <a class="link" href="https://www.iparentportal.com/">(visit site here)</a> is an educational technology company that aims to help all types of schools improve their client’s experience which are parents. From student application to daily communication, schools can let parents be involved with their child’s school life.</p>
+          <p class="description">iParentPortal Inc. <a class="link" href="https://www.iparentportal.com/">(visit site here)</a>
+            is an educational technology company that aims to help different schools to improve teachers, parents, and student's
+            experience. From student application to daily communication, schools can let parents be involved with their child’s
+            school life.</p>
 
-          <h2 class="subtitle">DevTools</h2>
+          <h2 class="subtitle">Technologies</h2>
           <ul class="tools">
             <li>CodeIgniter</li>
             <li>Bulma</li>
@@ -32,5 +35,5 @@ export default {
 </script>
 
 <style lang="sass">
-  
+
 </style>

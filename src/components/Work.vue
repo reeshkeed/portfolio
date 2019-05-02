@@ -22,7 +22,7 @@
           </div>
         </router-link>
 
-        <router-link class="card-link" to="/ipp">
+        <router-link class="card-link" to="/rizal">
           <div class="wide-card is-blue">
             <div class="row">
               <div class="col-lg-7 col-xs-12 v-centered">
@@ -39,7 +39,7 @@
           </div>
         </router-link>
 
-        <router-link class="card-link" to="/ipp">
+        <router-link class="card-link" to="/icon">
           <div class="wide-card is-yellow">
             <div class="row">
               <div class="col-lg-7 col-xs-12 v-centered">
