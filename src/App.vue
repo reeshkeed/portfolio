@@ -5,7 +5,7 @@
       <div class="container">
         <div class="navbar-menu">
           <router-link class="navbar-logo" to="/"
-            ><img class="logo" src="/static/img/g_triangle.svg" alt=""
+            ><img class="logo" src="/static/img/logo.svg" alt=""
           /></router-link>
 
           <div class="burger">
