@@ -1,0 +1,244 @@
+<template>
+  <div class="illusion">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       viewBox="0 0 1000.1 557.1" enable-background="new 0 0 1000.1 557.1" xml:space="preserve" preserveAspectRatio="xMidYMax slice">
+    <g>
+      <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-25.0943" y1="56.9668" x2="1069.5717" y2="544.3436">
+        <stop  offset="0" style="stop-color:#34355E"/>
+        <stop  offset="0.2327" style="stop-color:#3A355F"/>
+        <stop  offset="0.5549" style="stop-color:#4C3661"/>
+        <stop  offset="0.9281" style="stop-color:#693765"/>
+        <stop  offset="1" style="stop-color:#703766"/>
+      </linearGradient>
+      <path fill="url(#SVGID_1_)" d="M0,0.5v528.7c42.4-16.1,86.6-23.9,132-29.7c127-16,248,5,376-24c63-14,121-30,176-62
+        c7-4.1,14-8,21-11.9L883.6,0.5H0z"/>
+      <path fill="#703766" d="M883.6,0.5L705,401.6c93.1-51.3,187-85.4,293-102.1c0.7-0.1,1.3-0.2,2-0.3V0.5H883.6z"/>
+    </g>
+    <g>
+      <path fill="#21252B" d="M938.2,451.9H651c-2.3,0-4.2-1.9-4.2-4.2V253.2c0-2.3,1.9-4.2,4.2-4.2h287.2c2.3,0,4.2,1.9,4.2,4.2v194.6
+        C942.3,450,940.5,451.9,938.2,451.9z"/>
+      <g>
+        <circle fill="#4EB649" cx="923.9" cy="253.3" r="1.6"/>
+        <circle fill="#FCBA3C" cx="930.1" cy="253.3" r="1.6"/>
+        <circle fill="#CC575E" cx="935.7" cy="253.3" r="1.6"/>
+      </g>
+      <g opacity="0.37">
+        <rect x="651.2" y="251.6" fill="#D0D2D3" width="5.1" height="1.3"/>
+        <rect x="657.5" y="251.6" fill="#D0D2D3" width="2.9" height="1.3"/>
+        <rect x="661.7" y="251.6" fill="#D0D2D3" width="4.2" height="1.3"/>
+        <rect x="667" y="251.6" fill="#D0D2D3" width="4.2" height="1.3"/>
+      </g>
+      <g opacity="0.82">
+        <rect x="651.2" y="271.3" fill="#9CA4B2" width="22.5" height="4.9"/>
+        <rect x="655.3" y="279.6" fill="#9CA4B2" width="22.5" height="4.9"/>
+        <rect x="660.2" y="287.3" fill="#9CA4B2" width="13.6" height="4.9"/>
+        <rect x="660.2" y="295" fill="#9CA4B2" width="15.1" height="4.9"/>
+        <rect x="651.2" y="303.3" fill="#9CA4B2" width="17.7" height="4.9"/>
+        <rect x="651.4" y="311" fill="#9CA4B2" width="19.8" height="4.9"/>
+        <rect x="651.2" y="318.7" fill="#9CA4B2" width="24.3" height="4.9"/>
+      </g>
+      <path fill="#282C34" d="M739.1,269.9v-8.1h-40.9v8.1v0.9v181.1h240.6c1.9,0,3.5-1.6,3.5-3.6V269.9H739.1z"/>
+      <g opacity="0.85">
+        <g>
+          <rect x="707.5" y="283.5" fill="#B06275" width="12.9" height="3"/>
+          <rect x="723.9" y="283.5" fill="#D0975B" width="15.8" height="3"/>
+          <rect x="743.8" y="283.5" fill="#69B679" width="34.7" height="3"/>
+          <rect x="786.6" y="292.1" fill="#9EAEBF" width="30.7" height="3"/>
+          <rect x="715.4" y="287.6" fill="#B06275" width="12.9" height="3"/>
+          <rect x="731.7" y="287.6" fill="#D0975B" width="15.8" height="3"/>
+          <rect x="751.6" y="287.6" fill="#69B679" width="29.1" height="3"/>
+          <rect x="723.2" y="292.1" fill="#B06275" width="8.4" height="3"/>
+          <rect x="735.4" y="292.1" fill="#D0975B" width="15.8" height="3"/>
+          <rect x="755.2" y="292.1" fill="#69B679" width="27.6" height="3"/>
+          <rect x="821.2" y="292.1" fill="#B06275" width="8.4" height="3"/>
+          <rect x="723.2" y="296.3" fill="#B06275" width="12.9" height="3"/>
+          <rect x="739.6" y="296.3" fill="#D0975B" width="15.8" height="3"/>
+          <rect x="759.5" y="296.3" fill="#69B679" width="29.1" height="3"/>
+          <rect x="794.4" y="300.6" fill="#9EAEBF" width="50.8" height="3"/>
+          <rect x="731.1" y="300.6" fill="#B06275" width="8.4" height="3"/>
+          <rect x="743.3" y="300.6" fill="#D0975B" width="15.8" height="3"/>
+          <rect x="763" y="300.6" fill="#69B679" width="27.6" height="3"/>
+          <rect x="849" y="300.6" fill="#B06275" width="8.4" height="3"/>
+          <rect x="723.5" y="313.7" fill="#B06275" width="12.9" height="3"/>
+          <rect x="715.4" y="317.9" fill="#B06275" width="12.9" height="3"/>
+          <rect x="707.5" y="322.1" fill="#B06275" width="12.9" height="3"/>
+          <rect x="794.4" y="305.1" fill="#9EAEBF" width="62.3" height="3"/>
+          <rect x="731.1" y="305.1" fill="#B06275" width="8.4" height="3"/>
+          <rect x="743.3" y="305.1" fill="#D0975B" width="15.8" height="3"/>
+          <rect x="763" y="305.1" fill="#69B679" width="27.6" height="3"/>
+          <rect x="861.4" y="305.1" fill="#B06275" width="8.4" height="3"/>
+          <rect x="794.4" y="309.3" fill="#9EAEBF" width="72.2" height="3"/>
+          <rect x="731.1" y="309.3" fill="#B06275" width="8.4" height="3"/>
+          <rect x="743.3" y="309.3" fill="#D0975B" width="15.8" height="3"/>
+          <rect x="763" y="309.3" fill="#69B679" width="27.6" height="3"/>
+          <rect x="870.7" y="309.3" fill="#B06275" width="8.4" height="3"/>
+        </g>
+        <g>
+          <rect x="707.5" y="329.9" fill="#B06275" width="18.2" height="3"/>
+          <rect x="707.5" y="375.2" fill="#B06275" width="18.2" height="3"/>
+          <rect x="707.5" y="334.6" fill="#B679B3" width="23.1" height="3"/>
+          <rect x="734.4" y="334.6" fill="#B06275" width="23.2" height="3"/>
+          <rect x="707.1" y="339.3" fill="#3297C1" width="14" height="3"/>
+          <rect x="725.4" y="339.3" fill="#9EAEBF" width="4.4" height="3"/>
+          <rect x="734.1" y="339.3" fill="#B679B3" width="7.2" height="3"/>
+          <rect x="745" y="339.3" fill="#9EAEBF" width="4.4" height="3"/>
+          <rect x="714.9" y="343.6" fill="#9EAEBF" width="32.5" height="3"/>
+          <rect x="751.6" y="343.6" fill="#D0975B" width="15.8" height="3"/>
+          <rect x="707.1" y="348.3" fill="#9EAEBF" width="4.4" height="3"/>
+          <rect x="707.1" y="353.5" fill="#9EAEBF" width="22.2" height="3"/>
+          <rect x="733.1" y="353.5" fill="#9EAEBF" width="4.4" height="3"/>
+          <rect x="714.8" y="357.8" fill="#3297C1" width="18.9" height="3"/>
+          <rect x="737.5" y="357.8" fill="#9EAEBF" width="4.4" height="3"/>
+          <rect x="745.2" y="357.8" fill="#9EAEBF" width="4.4" height="3"/>
+          <rect x="724" y="362.2" fill="#B06275" width="103.4" height="3"/>
+          <rect x="714.4" y="366.6" fill="#9EAEBF" width="4.4" height="3"/>
+          <rect x="707.1" y="370.9" fill="#9EAEBF" width="4.4" height="3"/>
+        </g>
+        <g>
+          <rect x="707.5" y="382.5" fill="#B06275" width="18.2" height="3"/>
+          <rect x="707.5" y="387" fill="#B679B3" width="20.5" height="3"/>
+          <rect x="707.5" y="391.3" fill="#B679B3" width="20.5" height="3"/>
+          <rect x="732" y="387" fill="#69B679" width="55.7" height="3"/>
+          <rect x="732" y="391.3" fill="#69B679" width="67.3" height="3"/>
+          <rect x="707.5" y="397.4" fill="#D0975B" width="15.8" height="3"/>
+          <rect x="713.8" y="401.8" fill="#3297C1" width="18.9" height="3"/>
+          <rect x="737.3" y="401.8" fill="#D0975B" width="12.9" height="3"/>
+          <rect x="713.8" y="406.2" fill="#3297C1" width="22.4" height="3"/>
+          <rect x="741.6" y="406.2" fill="#D0975B" width="15.2" height="3"/>
+          <rect x="713.8" y="410.8" fill="#3297C1" width="17.7" height="3"/>
+          <rect x="735.9" y="410.8" fill="#D0975B" width="12.1" height="3"/>
+          <rect x="707.5" y="416.6" fill="#D0975B" width="15.8" height="3"/>
+          <rect x="713.8" y="421" fill="#3297C1" width="18.9" height="3"/>
+          <rect x="737.3" y="421" fill="#D0975B" width="12.9" height="3"/>
+          <rect x="707.3" y="426" fill="#D0975B" width="15.8" height="3"/>
+          <rect x="713.6" y="430.4" fill="#3297C1" width="18.9" height="3"/>
+          <rect x="737.1" y="430.4" fill="#D0975B" width="12.9" height="3"/>
+          <rect x="713.5" y="434.9" fill="#3297C1" width="27.6" height="3"/>
+          <rect x="744.7" y="434.9" fill="#D0975B" width="27.6" height="3"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <path fill="#535454" d="M882.9,513.7H595.7c-2.3,0-4.2-1.9-4.2-4.2V314.9c0-2.3,1.9-4.2,4.2-4.2h287.2c2.3,0,4.2,1.9,4.2,4.2v194.6
+        C887,511.8,885.1,513.7,882.9,513.7z"/>
+      <g>
+        <g>
+          <path fill="#7BA5D0" d="M594.3,313.8c0.3-0.1,0.7-0.1,1.4-0.1c0.6,0,1.1,0.1,1.4,0.4c0.3,0.2,0.5,0.6,0.5,1
+            c0,0.4-0.1,0.8-0.4,1.1c-0.3,0.3-0.8,0.5-1.4,0.5c-0.1,0-0.3,0-0.3,0v1.6h-1V313.8z M595.3,315.8c0.1,0,0.2,0,0.3,0
+            c0.5,0,0.9-0.3,0.9-0.7c0-0.4-0.3-0.7-0.8-0.7c-0.2,0-0.3,0-0.4,0V315.8z"/>
+          <path fill="#7BA5D0" d="M598,317.3c0.2,0.1,0.6,0.2,0.9,0.2c0.3,0,0.4-0.1,0.4-0.3c0-0.2-0.1-0.2-0.5-0.4c-0.7-0.2-0.9-0.6-0.9-1
+            c0-0.6,0.5-1.1,1.3-1.1c0.4,0,0.7,0.1,0.9,0.2l-0.2,0.7c-0.1-0.1-0.4-0.2-0.7-0.2c-0.2,0-0.4,0.1-0.4,0.3c0,0.2,0.1,0.2,0.5,0.4
+            c0.6,0.2,0.9,0.5,0.9,1c0,0.6-0.5,1-1.4,1c-0.4,0-0.8-0.1-1-0.2L598,317.3z"/>
+        </g>
+        <g>
+          <rect x="866.5" y="311" fill="#606161" stroke="#3A3A3A" stroke-width="0.25" stroke-miterlimit="10" width="5.7" height="5.1"/>
+          <rect x="872.2" y="311" fill="#606161" stroke="#3A3A3A" stroke-width="0.25" stroke-miterlimit="10" width="5.7" height="5.1"/>
+          <rect x="877.8" y="311" fill="#606161" stroke="#3A3A3A" stroke-width="0.25" stroke-miterlimit="10" width="5.7" height="5.1"/>
+          <rect x="867.9" y="314.3" fill="#BBBDBF" width="2.8" height="0.6"/>
+          <rect x="873.8" y="312.6" fill="none" stroke="#BBBDBF" stroke-width="0.75" stroke-miterlimit="10" width="2.3" height="2.1"/>
+          <g>
+            <path fill="#BBBDBF" d="M879.6,314.6l0.7-1.1l-0.7-1h0.7l0.4,0.6l0.4-0.6h0.6l-0.7,1l0.8,1.1h-0.7l-0.4-0.6l-0.4,0.6H879.6z"/>
+          </g>
+        </g>
+      </g>
+      <rect x="601.3" y="327" fill="#282827" width="234.7" height="176.6"/>
+      <radialGradient id="SVGID_2_" cx="713.3687" cy="411.336" r="70.676" gradientUnits="userSpaceOnUse">
+        <stop  offset="0" style="stop-color:#FFFFFF"/>
+        <stop  offset="1" style="stop-color:#EAEAE9"/>
+      </radialGradient>
+      <rect x="628.2" y="359" fill="url(#SVGID_2_)" width="170.3" height="104.6"/>
+      <g opacity="0.54">
+        <polygon opacity="0.85" fill="#EE4067" enable-background="new    " points="721.8,397.5 713.4,397.5 704.9,397.5 700.7,404.9
+          709.1,404.9 717.6,404.9 726,404.9 		"/>
+        <polygon opacity="0.85" fill="#713766" enable-background="new    " points="704.9,412.2 704.9,412.2 709.1,404.9 709.1,404.9
+          704.9,397.5 700.7,404.9 700.7,404.9 696.5,412.2 696.5,412.2 700.7,419.5 700.7,419.5 704.9,426.8 709.1,419.5 709.1,419.5 		"/>
+        <polygon opacity="0.85" fill="#5E5EA9" enable-background="new    " points="730.3,412.2 721.8,412.2 717.6,419.5 717.4,419.5
+          709.1,419.5 700.7,419.5 704.9,426.8 713.4,426.8 713.4,426.8 717.9,426.8 721.8,426.8 721.8,426.8 726.1,419.5 726.1,419.5 		"/>
+      </g>
+      <g>
+        <rect x="636.5" y="327" fill="#393939" width="199.5" height="6.9"/>
+        <rect x="601.3" y="327" fill="#535454" width="35" height="6.9"/>
+      </g>
+      <rect x="851" y="401" fill="#393939" width="35.9" height="3.9"/>
+      <g>
+        <g>
+          <rect x="851" y="327" fill="#393939" width="35.5" height="3.9"/>
+          <radialGradient id="SVGID_3_" cx="861.942" cy="350.4572" r="15.3566" gradientUnits="userSpaceOnUse">
+            <stop  offset="0" style="stop-color:#FFFFFF"/>
+            <stop  offset="1" style="stop-color:#EAEAE9"/>
+          </radialGradient>
+
+            <rect x="843.4" y="339.1" fill="url(#SVGID_3_)" stroke="#EC1C24" stroke-width="0.25" stroke-miterlimit="10" width="37" height="22.7"/>
+          <rect x="836" y="368" fill="#393939" width="15.6" height="3.9"/>
+          <rect x="861.9" y="368" fill="#393939" width="24.9" height="3.9"/>
+        </g>
+        <g opacity="0.8">
+          <rect x="853.2" y="379.5" fill="#A9A9A9" width="3.8" height="3.9"/>
+          <rect x="859.1" y="379.5" fill="#A9A9A9" width="3.8" height="3.9"/>
+          <rect x="864.9" y="379.5" fill="#A9A9A9" width="3.8" height="3.9"/>
+          <rect x="850.3" y="384.7" fill="#A9A9A9" width="3.8" height="3.9"/>
+          <rect x="856.2" y="384.7" fill="#A9A9A9" width="3.8" height="3.9"/>
+          <rect x="862" y="384.7" fill="#A9A9A9" width="3.8" height="3.9"/>
+          <rect x="867.7" y="384.7" fill="#A9A9A9" width="3.8" height="3.9"/>
+          <rect x="853.2" y="390" fill="#A9A9A9" width="3.8" height="3.9"/>
+          <rect x="859.1" y="390" fill="#A9A9A9" width="3.8" height="3.9"/>
+          <rect x="864.9" y="390" fill="#A9A9A9" width="3.8" height="3.9"/>
+        </g>
+        <g>
+          <rect x="843.1" y="404.9" fill="#596679" width="41.1" height="5.8"/>
+          <radialGradient id="SVGID_4_" cx="847.1909" cy="407.7568" r="1.96" gradientUnits="userSpaceOnUse">
+            <stop  offset="0" style="stop-color:#FFFFFF"/>
+            <stop  offset="1" style="stop-color:#EAEAE9"/>
+          </radialGradient>
+          <rect x="844.8" y="406.3" fill="url(#SVGID_4_)" width="4.7" height="2.9"/>
+
+            <rect x="843.2" y="410.7" fill="#535454" stroke="#464646" stroke-width="0.25" stroke-miterlimit="10" width="40.9" height="5.8"/>
+          <radialGradient id="SVGID_5_" cx="847.1909" cy="413.5446" r="1.96" gradientUnits="userSpaceOnUse">
+            <stop  offset="0" style="stop-color:#FFFFFF"/>
+            <stop  offset="1" style="stop-color:#EAEAE9"/>
+          </radialGradient>
+          <rect x="844.8" y="412.1" fill="url(#SVGID_5_)" width="4.7" height="2.9"/>
+          <rect x="836" y="416.4" fill="#464646" width="48.2" height="82.3"/>
+          <g opacity="0.62">
+            <rect x="838" y="499.8" fill="#A9A9A9" width="4.9" height="3"/>
+            <rect x="846.7" y="499.8" fill="#A9A9A9" width="4.9" height="3"/>
+            <rect x="855.1" y="499.8" fill="#A9A9A9" width="4.9" height="3"/>
+            <rect x="863.9" y="499.8" fill="#A9A9A9" width="4.9" height="3"/>
+            <rect x="871.7" y="499.8" fill="#A9A9A9" width="4.9" height="3"/>
+            <rect x="879.2" y="499.8" fill="#A9A9A9" width="4.9" height="3"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    </svg>
+  </div>
+</template>
+
+<style scoped lang="sass">
+
+.illusion
+  width: 100%
+
+.illusion svg
+  height: 58rem
+  width: 100%
+
+@media (min-width: 1216px) and (max-width: 1407px)
+  .illusion svg
+    height: 48rem
+
+@media (min-width: 1024px) and (max-width: 1215px)
+  .illusion svg
+    height: 45rem
+
+
+@media (min-width: 769px) and (max-width: 1023px)
+  .illusion svg
+    height: 43rem
+
+
+@media (max-width: 768px)
+  .illusion svg
+    height: 42rem
+
+</style>

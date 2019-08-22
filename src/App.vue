@@ -126,7 +126,7 @@ export default {
     margin-left: auto
 
   .burger span
-    border-top: 2px solid #434343
+    border-top: 2px solid #fff
     display: block
     height: 8px
     width: 100%

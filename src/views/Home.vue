@@ -3,7 +3,7 @@
     <div class="hero">
       <div class="container">
         <div class="row v-centered">
-          <div class="col-xs-9 text-white">
+          <div class="col-sm-7 col-xs-9 text-white">
             <div class="line"></div>
             <h2 class="name">GIRISH</h2>
             <h2 class="name">DALOSO</h2>
@@ -14,34 +14,8 @@
       </div>
     </div>
 
-    <div class="home-banner">
-      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-      	 viewBox="0 0 1000 574.4" enable-background="new 0 0 1000 574.4" xml:space="preserve">
-      <g>
-      	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-513.7166" y1="-424.1549" x2="1636.9565" y2="533.3865">
-      		<stop  offset="0" style="stop-color:#34355E"/>
-      		<stop  offset="0.1993" style="stop-color:#3A355F"/>
-      		<stop  offset="0.4755" style="stop-color:#493661"/>
-      		<stop  offset="0.7951" style="stop-color:#5F3764"/>
-      		<stop  offset="1" style="stop-color:#703766"/>
-      	</linearGradient>
-      	<path fill="url(#SVGID_1_)" d="M-413.6-649V619.4c78.7-38.7,160.6-57.4,244.8-71.2c235.5-38.4,459.9,12,697.3-57.6
-      		c116.8-33.6,224.4-72,326.4-148.8c13-9.7,25.9-19.2,38.9-28.5L1225.1-649H-413.6z"/>
-      	<path fill="#703766" d="M1225.1-649L893.9,313.4c172.6-123.2,346.8-204.9,543.4-245c1.2-0.3,2.5-0.5,3.7-0.8V-649H1225.1z"/>
-      </g>
-      <g>
-      </g>
-      <g>
-      </g>
-      <g>
-      </g>
-      <g>
-      </g>
-      <g>
-      </g>
-      <g>
-      </g>
-      </svg>
+    <div class="home-illusion">
+      <illusion/>
     </div>
 
     <div class="container">
@@ -58,19 +32,25 @@
   </div>
 </template>
 
-<style scoped lang="sass">
-.home
-  height: 100%
-  width: 100%
+<script>
+import illusion from '@/components/Illusion.vue'
 
+export default {
+  name: 'home',
+  components: {
+    illusion
+  }
+}
+</script>
+
+<style scoped lang="sass">
 .hero
   position: relative
   z-index: 2
-  padding: 4rem 0
+  padding: 6rem 0
 
-.home-banner
+.home-illusion
   align-items: center
-  background: #fff
   display: flex
   justify-content: center
   left: 0
@@ -79,10 +59,6 @@
   top: 0
   width: 100%
   z-index: 1
-
-.home-banner svg
-  height: 55rem
-  width: 100%
 
 .name
   font-size: 7rem
@@ -93,7 +69,7 @@
 
 #my-title
   font-size: 2.5rem
-  font-weight: 200
+  font-weight: 300
 
 #intro
   font-size: 1.5rem
@@ -104,6 +80,9 @@
   margin-bottom: 0
 
 @media (min-width: 1216px) and (max-width: 1407px)
+  .hero
+    padding: 4rem 0
+
   .name
     font-size: 6rem
 
@@ -114,6 +93,9 @@
     font-size: 1.3rem
 
 @media (min-width: 1024px) and (max-width: 1215px)
+  .hero
+    padding: 4rem 0
+
   .name
     font-size: 5rem
 
@@ -124,6 +106,9 @@
     font-size: 1.2rem
 
 @media (min-width: 769px) and (max-width: 1023px)
+  .hero
+    padding: 3rem 0
+
   .name
     font-size: 4.5rem
 
@@ -133,7 +118,10 @@
   #intro
     font-size: 1.2rem
 
-@media (max-width: 768px)
+@media (min-width: 569px) and (max-width: 768px)
+  .hero
+    padding: 3.5rem 0
+
   .name
     font-size: 3.5rem
 
@@ -143,7 +131,17 @@
   #intro
     font-size: 1.1rem
 
-  .home-banner svg
-    height: 40rem
+@media (max-width: 568px)
+  .hero
+    padding: 1.6rem 0
+
+  .name
+    font-size: 3.5rem
+
+  #my-title
+    font-size: 1.4rem
+
+  #intro
+    font-size: 1.1rem
 
 </style>
