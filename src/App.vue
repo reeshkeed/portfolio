@@ -51,6 +51,8 @@ export default {
   padding: 3rem 0
   align-items: stretch
   display: flex
+  position: relative
+  z-index: 2
 
 .navbar > .container
   align-items: stretch
@@ -72,7 +74,7 @@ export default {
 
 .navbar-link
   font-size: 0.9rem
-  color: #434343
+  color: #fff
   text-decoration: none
   text-transform: uppercase
   font-weight: 400
@@ -111,6 +113,7 @@ export default {
     padding-left: 0
     padding-top: 0.8rem
     padding-bottom: 0.8rem
+    color: #434343
 
   .burger
     justify-content: flex-end
