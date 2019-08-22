@@ -5,7 +5,7 @@
       <div class="container">
         <div class="navbar-menu">
           <router-link class="navbar-logo" to="/"
-            ><img class="logo" src="/static/img/logo.svg" alt=""
+            ><img class="logo" src="../static/img/logo.svg" alt=""
           /></router-link>
 
           <div class="burger">
@@ -24,25 +24,7 @@
       </div>
     </nav>
 
-
-    <!-- Render Views -->
-    <transition
-      name="slide-fade"
-      mode="out-in"
-    >
-      <router-view/>
-    </transition>
-
-    <!-- Footer -->
-    <div class="footer">
-      <div class="container">
-        <p class="footer-name">© Girish Daloso</p>
-        <div>
-          <a class="footer-icon" href="https://github.com/reeshkeed" target="_blank"><span class="icon-github"></span></a>
-          <a class="footer-icon" href="https://www.linkedin.com/in/girishdaloso/" target="_blank"><span class="icon-linkedin"></span></a>
-        </div>
-      </div>
-    </div>
+    <router-view/>
   </div>
 </template>
 
@@ -64,7 +46,6 @@ export default {
 
 <style lang="sass">
 @import "/assets/sass/app.sass"
-@import "/assets/sass/style.css"
 
 .navbar
   padding: 3rem 0
@@ -106,27 +87,16 @@ export default {
   justify-content: flex-end
   margin-left: auto
   align-items: center
-
 .burger
   display: none
   justify-content: flex-end
   margin-left: auto
 
-.footer
-  padding: 5rem 0
+.router-link-exact-active
+  color: $primary !important
 
-.footer-name
-  color: #555
-  margin-bottom: 2rem
-
-.footer-icon
-  text-decoration: none
-  margin-right: 1rem
-  color: #cecece
-  font-size: 1.4rem
-
-.footer-icon:hover
-  color: #434343
+.navbar-link:hover, .link:hover
+  color: $secondary
 
 @media (max-width: 768px)
   .navbar-logo
