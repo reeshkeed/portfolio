@@ -58,8 +58,8 @@ export default {
   top: 0
   z-index: 1
 
-.home-recent
-  margin-top: 14rem
+.line
+  background-color: #fff
 
 .name
   font-size: 7rem
@@ -79,6 +79,9 @@ export default {
 #my-title, #intro
   margin-top: 1.5rem
   margin-bottom: 0
+
+.home-recent
+  margin-top: 14rem
 
 @media (min-width: 1216px) and (max-width: 1407px)
   .hero

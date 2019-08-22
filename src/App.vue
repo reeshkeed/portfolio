@@ -25,6 +25,32 @@
     </nav>
 
     <router-view/>
+
+    <div class="container">
+      <div class="line"></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container text-center">
+        <router-link to="/">
+          <img class="footer-logo" src="../static/img/logo.svg" alt="">
+        </router-link>
+        <div class="footer-items">
+          <router-link class="footer-link" to="/">Home</router-link>
+          <router-link class="footer-link" to="/work">Work</router-link>
+          <router-link class="footer-link" to="/samples">Samples</router-link>
+          <router-link class="footer-link" to="/contact">Contact</router-link>
+        </div>
+
+        <a class="footer-icon" href="https://github.com/reeshkeed" target="_blank"><span class="icon-github"></span></a>
+        <a class="footer-icon" href="https://www.linkedin.com/in/girishdaloso/" target="_blank"><span class="icon-linkedin"></span></a>
+        <a class="footer-icon" href="https://twitter.com/reeshkeed" target="_blank"><span class="icon-twitter"></span></a>
+
+        <p class="footer-rights">Reeshkeed © 2019</p>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -46,6 +72,7 @@ export default {
 
 <style lang="sass">
 @import "/assets/sass/app.sass"
+@import "../static/style.css"
 
 .navbar
   padding: 3rem 0
@@ -99,6 +126,34 @@ export default {
 
 .navbar-link:hover, .link:hover
   color: $tertiary
+
+.footer
+  padding: 4rem 0
+
+.footer-logo
+  height: 3rem
+
+.footer-items
+  padding: 2rem 0
+
+.footer-link
+  margin: 1rem
+  text-decoration: none
+  color: #a7a7a7
+
+.footer-link:hover, .footer-icon:hover
+  color: #0e1e25
+
+.footer-icon
+  margin: 1rem
+  font-size: 2rem
+  color: #a7a7a7
+  text-decoration: none
+
+.footer-rights
+  font-size: 0.9rem
+  font-weight: 100
+  margin: 1.5rem 0
 
 @media (max-width: 768px)
   .navbar-logo
