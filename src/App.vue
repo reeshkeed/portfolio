@@ -85,10 +85,10 @@ export default {
   display: flex
   flex-grow: 1
   flex-shrink: 0
-
   justify-content: flex-end
   margin-left: auto
   align-items: center
+
 .burger
   display: none
   justify-content: flex-end
@@ -98,7 +98,7 @@ export default {
   color: $primary !important
 
 .navbar-link:hover, .link:hover
-  color: $secondary
+  color: $tertiary
 
 @media (max-width: 768px)
   .navbar-logo
@@ -137,13 +137,11 @@ export default {
     left: 0
     right: 0
     text-align: center
-
+    z-index: 2
     max-height: 0px
     overflow-y: hidden
-
     background-color: #fff
     box-shadow: 0px 7px 7px 0 rgba(32, 33, 36, 0.14)
-
     transition: height, 0.5s ease
 
   .navbar-items.active

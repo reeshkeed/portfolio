@@ -18,9 +18,8 @@
       <illusion/>
     </div>
 
-    <div class="container">
-      <h1>This is an home page</h1>
-      <h1>This is an home page</h1>
+    <div class="home-recent container">
+      <h1>Top</h1>
       <h1>This is an home page</h1>
       <h1>This is an home page</h1>
       <h1>This is an home page</h1>
@@ -50,22 +49,24 @@ export default {
   padding: 6rem 0
 
 .home-illusion
-  align-items: center
-  display: flex
-  justify-content: center
-  left: 0
-  overflow: hidden
-  position: absolute
-  top: 0
   width: 100%
+  justify-content: center
+  align-items: center
+  position: absolute
+  overflow: hidden
+  left: 0
+  top: 0
   z-index: 1
+
+.home-recent
+  margin-top: 14rem
 
 .name
   font-size: 7rem
-  font-family: 'Monoton', cursive
   font-weight: 400
   margin-top: 0
   margin-bottom: -1rem
+  font-family: 'Monoton', cursive
 
 #my-title
   font-size: 2.5rem
@@ -119,8 +120,14 @@ export default {
     font-size: 1.2rem
 
 @media (min-width: 569px) and (max-width: 768px)
+  .home
+    position: relative
+    z-index: 1
+    margin-top: -11rem
+
   .hero
     padding: 3.5rem 0
+    padding-top: 13rem
 
   .name
     font-size: 3.5rem
@@ -132,8 +139,14 @@ export default {
     font-size: 1.1rem
 
 @media (max-width: 568px)
+  .home
+    position: relative
+    z-index: 1
+    margin-top: -11rem
+
   .hero
     padding: 1.6rem 0
+    padding-top: 12rem
 
   .name
     font-size: 3.5rem
