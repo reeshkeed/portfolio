@@ -18,15 +18,17 @@
       <illusion/>
     </div>
 
-    <div class="home-recent container">
-      <h1>Top</h1>
-      <h1>This is an home page</h1>
-      <h1>This is an home page</h1>
-      <h1>This is an home page</h1>
-      <h1>This is an home page</h1>
-      <h1>This is an home page</h1>
-      <h1>This is an home page</h1>
-      <h1>This is an home page</h1>
+    <div class="home-recent">
+      <div class="container">
+        <h2 class="subtitle">Featured Works</h2>
+        <h1>This is an home page</h1>
+        <h1>This is an home page</h1>
+        <h1>This is an home page</h1>
+        <h1>This is an home page</h1>
+        <h1>This is an home page</h1>
+        <h1>This is an home page</h1>
+        <h1>This is an home page</h1>
+      </div>
     </div>
   </div>
 </template>
@@ -46,7 +48,6 @@ export default {
 .hero
   position: relative
   z-index: 2
-  padding: 6rem 0
 
 .home-illusion
   width: 100%
@@ -81,7 +82,7 @@ export default {
   margin-bottom: 0
 
 .home-recent
-  margin-top: 14rem
+  margin: 14rem 0
 
 @media (min-width: 1216px) and (max-width: 1407px)
   .hero
