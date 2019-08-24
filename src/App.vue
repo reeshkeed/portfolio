@@ -15,7 +15,7 @@
           </div>
         </div>
 
-        <div class="navbar-items" :class="{ 'active': menuVisible }">
+        <div class="navbar-items" :class="{ 'active': menuVisible, 'is-light-nav': $route.meta.isLightNav }">
           <router-link class="navbar-link" to="/">Home</router-link>
           <router-link class="navbar-link" to="/work">Work</router-link>
           <router-link class="navbar-link" to="/samples">Samples</router-link>
@@ -139,15 +139,15 @@ export default {
 .footer-link
   margin: 1rem
   text-decoration: none
-  color: #a7a7a7
+  color: $gray
 
 .footer-link:hover, .footer-icon:hover
-  color: #0e1e25
+  color: $dark
 
 .footer-icon
   margin: 1rem
   font-size: 2rem
-  color: #a7a7a7
+  color: $gray
   text-decoration: none
 
 .footer-rights

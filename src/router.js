@@ -11,22 +11,34 @@ export default new Router({
       path: '/',
       name: 'home',
       component: () => import('./views/Home.vue'),
+      meta: {
+        isLightNav: false
+      }
     },
     {
       path: '/work',
       name: 'work',
-      component: () => import('./views/Work.vue')
+      component: () => import('./views/Work.vue'),
+      meta: {
+        isLightNav: true
+      }
     },
     {
       path: '/samples',
       name: 'samples',
-      component: () => import('./views/Samples.vue')
+      component: () => import('./views/Samples.vue'),
+      meta: {
+        isLightNav: true
+      }
     }
     ,
     {
       path: '/contact',
       name: 'contact',
-      component: () => import('./views/Contact.vue')
+      component: () => import('./views/Contact.vue'),
+      meta: {
+        isLightNav: true
+      }
     }
   ]
 })
