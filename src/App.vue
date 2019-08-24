@@ -18,7 +18,7 @@
         <div class="navbar-items" :class="{ 'active': menuVisible, 'is-light-nav': $route.meta.isLightNav }">
           <router-link class="navbar-link" to="/">Home</router-link>
           <router-link class="navbar-link" to="/work">Work</router-link>
-          <router-link class="navbar-link" to="/samples">Samples</router-link>
+          <router-link class="navbar-link" to="/experiments">Experiments</router-link>
           <router-link class="navbar-link" to="/contact">Contact</router-link>
         </div>
       </div>
@@ -39,7 +39,7 @@
         <div class="footer-items">
           <router-link class="footer-link" to="/">Home</router-link>
           <router-link class="footer-link" to="/work">Work</router-link>
-          <router-link class="footer-link" to="/samples">Samples</router-link>
+          <router-link class="footer-link" to="/experiments">Experiments</router-link>
           <router-link class="footer-link" to="/contact">Contact</router-link>
         </div>
 

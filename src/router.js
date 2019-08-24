@@ -24,9 +24,9 @@ export default new Router({
       }
     },
     {
-      path: '/samples',
-      name: 'samples',
-      component: () => import('./views/Samples.vue'),
+      path: '/experiments',
+      name: 'experiments',
+      component: () => import('./views/Experiments.vue'),
       meta: {
         isLightNav: true
       }

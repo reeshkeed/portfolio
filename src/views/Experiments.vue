@@ -1,7 +1,7 @@
 <template>
-  <div class="sample">
+  <div class="experiments">
     <div class="container">
-      <h1>This is an sample page</h1>
+      <h1>This is an experiments page</h1>
     </div>
   </div>
 </template>
