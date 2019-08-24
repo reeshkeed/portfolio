@@ -20,7 +20,7 @@ export default new Router({
       name: 'work',
       component: () => import('./views/Work.vue'),
       meta: {
-        isLightNav: true
+        isLightNav: false
       }
     },
     {

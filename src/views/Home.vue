@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <div class="home-illusion">
+    <div class="illusion-cover">
       <illusion/>
     </div>
 
@@ -24,7 +24,7 @@
 
         <div class="row">
           <div class="col-md-6 col-xs-12">
-            <div class="card">
+            <div class="card has-shadow">
               <h1>iCon</h1>
               <p>A Wi-fi Vending Machine.</p>
               <img class="card-image" src="../../static/img/featured/icon_fea.png" alt="">
@@ -32,7 +32,7 @@
             </div>
           </div>
           <div class="col-md-6 col-xs-12">
-            <div class="card">
+            <div class="card has-shadow">
               <h1>Jose Rizal Website</h1>
               <p>Website that contains Rizal's life.</p>
               <img class="card-image" src="../../static/img/featured/rizal_fea.png" alt="">
@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import illusion from '@/components/Illusion.vue'
+import illusion from '@/components/HomeIllusion.vue'
 
 export default {
   name: 'home',
@@ -61,16 +61,6 @@ export default {
 .hero
   position: relative
   z-index: 2
-
-.home-illusion
-  width: 100%
-  justify-content: center
-  align-items: center
-  position: absolute
-  overflow: hidden
-  left: 0
-  top: 0
-  z-index: 1
 
 .line
   background-color: #fff
@@ -97,25 +87,6 @@ export default {
 .home-recent
   margin: 14rem 0 5rem 0
 
-.card
-  padding: 4rem 3rem
-  border-radius: 0.6rem
-  background-color: #f3f3f4
-
-.card > h1, .card > p
-  margin: 1rem
-
-.card > .button
-  margin: 0.5rem
-
-.card > p
-  font-size: 1.1rem
-  margin-bottom: 2rem
-
-.card-image
-  width: 100%
-  margin-bottom: 1.5rem
-
 @media (min-width: 1216px) and (max-width: 1407px)
   .hero
     padding: 4rem 0
@@ -128,9 +99,6 @@ export default {
 
   #intro
     font-size: 1.3rem
-
-  .card > h1
-    font-size: 1.7rem
 
 @media (min-width: 1024px) and (max-width: 1215px)
   .hero
@@ -145,12 +113,6 @@ export default {
   #intro
     font-size: 1.2rem
 
-  .card
-    padding: 3.3rem 2.3rem
-
-  .card > h1
-    font-size: 1.7rem
-
 @media (min-width: 769px) and (max-width: 1023px)
   .hero
     padding: 3rem 0
@@ -163,12 +125,6 @@ export default {
 
   #intro
     font-size: 1.2rem
-
-  .card
-    padding: 4rem 3rem
-
-  .card > h1
-    font-size: 1.7rem
 
 @media (min-width: 569px) and (max-width: 768px)
   .home
@@ -189,9 +145,6 @@ export default {
   #intro
     font-size: 1.1rem
 
-  .card > h1
-    font-size: 1.7rem
-
 @media (max-width: 568px)
   .home
     position: relative
@@ -210,20 +163,5 @@ export default {
 
   #intro
     font-size: 1.1rem
-
-  .card
-    padding: 1.8rem 1.2rem
-
-  .card > h1
-    margin: 0.5rem
-    font-size: 1.5rem
-
-  .card > p
-    margin: 0.5rem
-    font-size: 1rem
-    margin-bottom: 1.3rem
-
-  .card-image
-    margin-bottom: 0.6rem
 
 </style>

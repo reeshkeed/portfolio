@@ -11,7 +11,6 @@ $gray: #a7a7a7
   font-family: "Public Sans webfont"
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  transition: all .2s linear
 
 .v-centered
 	display: flex
@@ -45,6 +44,16 @@ $gray: #a7a7a7
 .hero
   padding: 6rem 0
 
+.illusion-cover
+  width: 100%
+  justify-content: center
+  align-items: center
+  position: absolute
+  overflow: hidden
+  left: 0
+  top: 0
+  z-index: 1
+
 .button
   border: 0
   color: #fff
@@ -58,6 +67,28 @@ $gray: #a7a7a7
 .is-light-nav > .navbar-link
   color: $dark
 
+.card
+  padding: 3rem
+  border-radius: 0.3rem
+  background-color: #f3f3f4
+
+.card > h1, .card > p
+  margin: 0.7rem
+
+.card > .button
+  margin: 0.5rem
+
+.card > p
+  font-size: 1.1rem
+  margin-bottom: 2rem
+
+.card-image
+  width: 100%
+  margin-bottom: 1.5rem
+
+.has-shadow
+  box-shadow: 0 0 0 1px rgba(255,255,255,.1), 0 2px 4px 0 rgba(14,30,37,.12)
+
 @media (min-width: 1408px)
   .container
     width: 75rem
@@ -65,6 +96,9 @@ $gray: #a7a7a7
 @media (min-width: 1216px) and (max-width: 1407px)
   .container
     width: 65rem
+
+  .card > h1
+    font-size: 1.7rem
 
 @media (min-width: 1024px) and (max-width: 1215px)
   .container
@@ -78,8 +112,14 @@ $gray: #a7a7a7
   .col-xs-12, .col-xs-offset-0, .col-xs-offset-1, .col-xs-offset-2,
   .col-xs-offset-3, .col-xs-offset-4, .col-xs-offset-5, .col-xs-offset-6,
   .col-xs-offset-7, .col-xs-offset-8, .col-xs-offset-9, .col-xs-offset-10,
-  .col-xs-offset-11, .col-xs-offset-12
+  .col-xs-offset-11, .col-xs-offset-12, .col-md-6
     padding: 0.5rem
+
+  .card
+    padding: 3.3rem 2.3rem
+
+  .card > h1
+    font-size: 1.7rem
 
   .button
     padding: 0.7rem 1rem
@@ -102,6 +142,12 @@ $gray: #a7a7a7
   .button
     padding: 0.7rem 1rem
 
+  .card
+    padding: 4rem 3rem
+
+  .card > h1
+    font-size: 1.7rem
+
 @media (min-width: 569px) and (max-width: 768px)
   .container
     width: 35rem
@@ -116,6 +162,9 @@ $gray: #a7a7a7
 
   .button
     padding: 0.7rem 1rem
+
+  .card > h1
+    font-size: 1.7rem
 
 @media (max-width: 568px)
   .container
@@ -146,3 +195,18 @@ $gray: #a7a7a7
   .button
     padding: 0.7rem 0.9rem
     font-size: 0.9rem
+
+  .card
+    padding: 1.8rem 1.2rem
+
+  .card > h1
+    margin: 0.5rem
+    font-size: 1.5rem
+
+  .card > p
+    margin: 0.5rem
+    font-size: 1rem
+    margin-bottom: 1.3rem
+
+  .card-image
+    margin-bottom: 0.6rem
