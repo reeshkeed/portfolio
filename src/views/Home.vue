@@ -21,13 +21,26 @@
     <div class="home-recent">
       <div class="container">
         <h2 class="subtitle">Featured Works</h2>
-        <h1>This is an home page</h1>
-        <h1>This is an home page</h1>
-        <h1>This is an home page</h1>
-        <h1>This is an home page</h1>
-        <h1>This is an home page</h1>
-        <h1>This is an home page</h1>
-        <h1>This is an home page</h1>
+
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div class="card">
+              <h1>iCon</h1>
+              <p>A Wi-fi Vending Machine.</p>
+              <img class="card-image" src="../../static/img/featured/icon_fea.png" alt="">
+              <button class="button" type="button">View Project</button>
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <div class="card">
+              <h1>Jose Rizal Website</h1>
+              <p>Website that contains Rizal's life.</p>
+              <img class="card-image" src="../../static/img/featured/rizal_fea.png" alt="">
+              <button class="button" type="button">View Project</button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -83,6 +96,25 @@ export default {
 
 .home-recent
   margin: 14rem 0
+
+.card
+  padding: 4rem 3rem
+  border-radius: 1rem
+  background-color: #f3f3f4
+
+.card > h1, .card > p
+  margin: 1rem
+
+.card > button
+  margin: 0.7rem
+
+.card > p
+  font-size: 1.1rem
+  margin-bottom: 2rem
+
+.card-image
+  width: 100%
+  margin-bottom: 1.5rem
 
 @media (min-width: 1216px) and (max-width: 1407px)
   .hero
