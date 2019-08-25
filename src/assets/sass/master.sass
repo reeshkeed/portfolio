@@ -22,7 +22,6 @@ $gray: #a7a7a7
 .fullscreen
   height: 100vh
 
-
 .line
   background-color: $tertiary
   height: 0.4rem
@@ -64,10 +63,15 @@ $gray: #a7a7a7
   display: inline-block
   background-color: $primary
 
-.is-light-nav > .navbar-link
+.is-light-nav .navbar-link, .is-light-nav .burger span
   color: $dark
+  border-color: $dark
+
+.col-lg-6, .col-md-6, .col-sm-6
+  height: 100%
 
 .card
+  height: 100%
   padding: 3rem
   border-radius: 0.3rem
   background-color: #f3f3f4
@@ -88,6 +92,35 @@ $gray: #a7a7a7
 
 .has-shadow
   box-shadow: 0 0 0 1px rgba(255,255,255,.1), 0 2px 4px 0 rgba(14,30,37,.12)
+
+.badges
+  display: inline-flex
+
+.badge
+  height: 2rem
+  width: 2rem
+  display: block
+  margin: 0.3rem
+
+.photoshop
+  background: url('../static/img/badge-ps.png')
+  background-size: cover
+
+.illustrator
+  background: url('../static/img/badge-ai.png')
+  background-size: cover
+
+.is-mint-green
+  background-color: #6dacbb
+
+.is-light-blue
+  background-color: #7ca4d6
+
+.is-violet
+  background-color: #aa81af
+
+.is-light-red
+  background-color: #e2988c
 
 @media (min-width: 1408px)
   .container
@@ -210,3 +243,7 @@ $gray: #a7a7a7
 
   .card-image
     margin-bottom: 0.6rem
+
+  .badge
+    height: 1.3rem
+    width: 1.3rem

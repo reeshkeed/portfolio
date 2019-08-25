@@ -2,7 +2,7 @@
   <div id="app">
     <!-- Navbar -->
     <nav class="navbar"  @click="toggleMenu">
-      <div class="container">
+      <div class="container" :class="{ 'is-light-nav': $route.meta.isLightNav } ">
         <div class="navbar-menu">
           <router-link class="navbar-logo" to="/"
             ><img class="logo" src="../static/img/logo.svg" alt=""
@@ -15,7 +15,7 @@
           </div>
         </div>
 
-        <div class="navbar-items" :class="{ 'active': menuVisible, 'is-light-nav': $route.meta.isLightNav }">
+        <div class="navbar-items" :class="{ 'active': menuVisible} ">
           <router-link class="navbar-link" to="/">Home</router-link>
           <router-link class="navbar-link" to="/work">Work</router-link>
           <router-link class="navbar-link" to="/experiments">Experiments</router-link>
@@ -79,7 +79,7 @@ export default {
   align-items: stretch
   display: flex
   position: relative
-  z-index: 2
+  z-index: 4
 
 .navbar > .container
   align-items: stretch
@@ -137,7 +137,7 @@ export default {
   padding: 2rem 0
 
 .footer-link
-  margin: 1rem
+  margin: 0.6rem
   text-decoration: none
   color: $gray
 
