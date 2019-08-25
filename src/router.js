@@ -37,7 +37,7 @@ export default new Router({
       name: 'contact',
       component: () => import('./views/Contact.vue'),
       meta: {
-        isLightNav: true
+        isLightNav: false
       }
     }
   ]
