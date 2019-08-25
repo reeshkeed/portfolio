@@ -129,6 +129,17 @@ export default {
   .card
     margin: 1rem
 
+@media (min-width: 569px) and (max-width: 768px)
+  .card
+    padding: 1.4rem
+
+  .card h1
+    font-size: 1.5rem
+
+  .badge
+    height: 1.5rem
+    width: 1.5rem
+
 @media (max-width: 568px)
   .hero h1
     font-size: 2rem
