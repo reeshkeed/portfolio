@@ -5,12 +5,15 @@ $primary: #ee3e67
 $secondary: #6f3766
 $tertiary: #5e5ca8
 $dark: #0e1e25
-$gray: #a7a7a7
+$gray: #788286
 
 *
   font-family: "Public Sans webfont"
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
+
+p
+  font-size: 1.1rem
 
 .v-centered
 	display: flex
@@ -122,6 +125,18 @@ $gray: #a7a7a7
 .is-light-red
   background-color: #e2988c
 
+.project-title
+  margin: 0
+  font-size: 3rem
+
+.project-position
+  margin: 0
+  font-size: 1.7rem
+  font-weight: 200
+
+.project-content
+  padding: 10rem 0 4rem 0
+
 @media (min-width: 1408px)
   .container
     width: 75rem
@@ -181,6 +196,12 @@ $gray: #a7a7a7
   .card > h1
     font-size: 1.7rem
 
+  .project-title
+    font-size: 2.7rem
+
+  .project-position
+    font-size: 1.5rem
+
 @media (min-width: 569px) and (max-width: 768px)
   .container
     width: 35rem
@@ -205,6 +226,12 @@ $gray: #a7a7a7
   .badge
     height: 1.5rem
     width: 1.5rem
+
+  .project-title
+    font-size: 2.3rem
+
+  .project-position
+    font-size: 1.3rem
 
 @media (max-width: 568px)
   .container
@@ -254,3 +281,9 @@ $gray: #a7a7a7
   .badge
     height: 1.3rem
     width: 1.3rem
+
+  .project-title
+    font-size: 2rem
+
+  .project-position
+    font-size: 1.2rem

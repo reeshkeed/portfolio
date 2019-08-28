@@ -28,7 +28,7 @@
               <h1>iCon</h1>
               <p>A Wi-fi Vending Machine.</p>
               <img class="card-image" src="../../static/img/featured/icon_fea.png" alt="">
-              <router-link class="button" to="/work">View Project</router-link>
+              <router-link class="button" to="/icon">View Project</router-link>
             </div>
           </div>
           <div class="col-md-6 col-xs-12">
@@ -36,7 +36,7 @@
               <h1>Jose Rizal Website</h1>
               <p>Website that contains Rizal's life.</p>
               <img class="card-image" src="../../static/img/featured/rizal_fea.png" alt="">
-              <router-link class="button" to="/work">View Project</router-link>
+              <router-link class="button" to="/joserizal">View Project</router-link>
             </div>
           </div>
         </div>

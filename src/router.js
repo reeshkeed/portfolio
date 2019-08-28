@@ -30,12 +30,35 @@ export default new Router({
       meta: {
         isLightNav: true
       }
-    }
-    ,
+    },
     {
       path: '/contact',
       name: 'contact',
       component: () => import('./views/Contact.vue'),
+      meta: {
+        isLightNav: false
+      }
+    },
+    {
+      path: '/iparentportal',
+      name: 'iparentportal',
+      component: () => import('./views/Ipp.vue'),
+      meta: {
+        isLightNav: false
+      }
+    },
+    {
+      path: '/joserizal',
+      name: 'joserizal',
+      component: () => import('./views/Rizal.vue'),
+      meta: {
+        isLightNav: false
+      }
+    },
+    {
+      path: '/icon',
+      name: 'icon',
+      component: () => import('./views/Icon.vue'),
       meta: {
         isLightNav: false
       }

@@ -1,14 +1,14 @@
 <template>
   <div id="app">
     <!-- Navbar -->
-    <nav class="navbar"  @click="toggleMenu">
+    <nav class="navbar">
       <div class="container" :class="{ 'is-light-nav': $route.meta.isLightNav } ">
         <div class="navbar-menu">
           <router-link class="navbar-logo" to="/"
             ><img class="logo" src="../static/img/logo.svg" alt=""
           /></router-link>
 
-          <div class="burger">
+          <div class="burger" @click="toggleMenu">
             <span></span>
             <span></span>
             <span></span>
