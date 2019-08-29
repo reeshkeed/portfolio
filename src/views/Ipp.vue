@@ -12,20 +12,54 @@
       <illusion/>
     </div>
 
-    <div class="project-content">
+    <div class="project-container">
       <div class="container">
-        <h2 class="subtitle">About the Project</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-          text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-          desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
+        <div class="content">
+          <h2 class="subtitle">About the Project</h2>
+          <p>
+            iParentPortal Inc is an educational technology company that aims to help different schools to improve teachers,
+            parents, and student's experience.
+          </p>
+          <p>
+            To showcase their products, I am ask to create and redesign their existing front-facing website.
+          </p>
+        </div>
 
-        <h2 class="subtitle">Technologies</h2>
+        <div class="content">
+          <h2 class="subtitle">Views</h2>
+          <img class="project-img" src="../../static/img/work/ipp/home.png" alt="">
+          <img class="project-img" src="../../static/img/work/ipp/contact.png" alt="">
+          <img class="project-img" src="../../static/img/work/ipp/products.png" alt="">
+        </div>
+
+        <div class="content">
+          <h2 class="subtitle">Technologies</h2>
+          <ul>
+            <li>Bulma</li>
+            <li>SASS</li>
+          </ul>
+        </div>
+
+        <div class="content">
+          <h2 class="subtitle">Website</h2>
+          <p>Visit website at <a class="weblink" href="https://www.iparentportal.com" target="_blank">https://www.iparentportal.com</a></p>
+        </div>
+
+        <div class="content">
+          <h2 class="subtitle">Disclaimer</h2>
+          <p>All SVG images is created by my Senior <a class="weblink" href="https://github.com/thestoneoflapiz" target="_blank">Ms. Levi Hernandez</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="navigation">
+          <div class="text-right">
+            <router-link class="navigation-control" to="/joserizal">Next Project<span class="icon-arrow-right2"></span></router-link>
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
 </template>
 

@@ -18,7 +18,7 @@
             <div class="card has-shadow">
               <h1>iParentPortal</h1>
               <p>A front-facing website for iParentPortal products.</p>
-              <img class="card-image" src="../../static/img/featured/work_ipp.png" alt="">
+              <img class="card-image" src="../../static/img/work/ipp/prev.png" alt="">
               <router-link class="button" to="/iparentportal">View Project</router-link>
             </div>
           </div>
@@ -26,7 +26,7 @@
             <div class="card has-shadow">
               <h1>Jose Rizal</h1>
               <p>Contains information about Jose Rizal's life and works.</p>
-              <img class="card-image" src="../../static/img/featured/work_rizal.png" alt="">
+              <img class="card-image" src="../../static/img/work/rizal/prev.png" alt="">
               <router-link class="button" to="/joserizal">View Project</router-link>
             </div>
           </div>
@@ -34,7 +34,7 @@
             <div class="card has-shadow">
               <h1>iCon</h1>
               <p>iCon is a wi-fi vending machine dedicated for Bus Stations.</p>
-              <img class="card-image" src="../../static/img/featured/work_icon.png" alt="">
+              <img class="card-image" src="../../static/img/work/icon/prev.png" alt="">
               <router-link class="button" to="/icon">View Project</router-link>
             </div>
           </div>
