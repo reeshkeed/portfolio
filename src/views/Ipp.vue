@@ -54,7 +54,7 @@
       <div class="container">
         <div class="navigation">
           <div class="text-right">
-            <router-link class="navigation-control" to="/joserizal">Next Project<span class="icon-arrow-right2"></span></router-link>
+            <router-link class="navigation-control" to="/icon">Next Project<span class="icon-arrow-right2"></span></router-link>
           </div>
         </div>
       </div>

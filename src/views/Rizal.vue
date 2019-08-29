@@ -12,20 +12,61 @@
       <illusion/>
     </div>
 
-    <div class="project-content">
+    <div class="project-container">
       <div class="container">
-        <h2 class="subtitle">About the Project</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-          text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-          desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
+        <div class="content">
+          <h2 class="subtitle">About the Project</h2>
+          <p>
+            As completing a subject we are required to create a website about Rizal. This website contains information about Jose Rizal's life and works.
+            It aims to help our fellow students and other people who need or having a research about Rizal's life.
+          </p>
+          <p>
+            It contains the details of his different characteristics, his family, his travels abroad to study, his poems, philosophies, achievements, and other works and accomplishments.
+          </p>
+          <p>
+            Through this website, you will learn the importance of learning the life and works of Rizal.
+          </p>
+        </div>
 
-        <h2 class="subtitle">Technologies</h2>
+        <div class="content">
+          <h2 class="subtitle">Views</h2>
+          <img class="project-img" src="../../static/img/work/rizal/home.png" alt="">
+          <img class="project-img" src="../../static/img/work/rizal/biography.png" alt="">
+          <img class="project-img" src="../../static/img/work/rizal/travels.png" alt="">
+          <img class="project-img" src="../../static/img/work/rizal/sculptures.png" alt="">
+          <img class="project-img" src="../../static/img/work/rizal/about.png" alt="">
+        </div>
+
+        <div class="content">
+          <h2 class="subtitle">Technologies</h2>
+          <ul>
+            <li>Vue.js</li>
+            <li>Bootstrap 4</li>
+            <li>SASS</li>
+            <li>JSON</li>
+          </ul>
+        </div>
+
+        <div class="content">
+          <h2 class="subtitle">Website</h2>
+          <p>This site is hosted at <a class="weblink" href="https://joserizal.girishdaloso.me/" target="_blank">https://joserizal.girishdaloso.me/</a></p>
+        </div>
+
+        <div class="content">
+          <h2 class="subtitle">Source</h2>
+          <p>Code is available at <a class="weblink" href="https://github.com/reeshkeed/Rizal" target="_blank">https://github.com/reeshkeed/Rizal</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="navigation">
+          <div class="text-left">
+            <router-link class="navigation-control" to="/icon"><span class="icon-arrow-left2"></span>Previous Project</router-link>
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
 </template>
 

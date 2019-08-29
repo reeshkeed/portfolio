@@ -24,18 +24,18 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
             <div class="card has-shadow">
-              <h1>Jose Rizal</h1>
-              <p>Contains information about Jose Rizal's life and works.</p>
-              <img class="card-image" src="../../static/img/work/rizal/prev.png" alt="">
-              <router-link class="button" to="/joserizal">View Project</router-link>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <div class="card has-shadow">
               <h1>iCon</h1>
               <p>iCon is a wi-fi vending machine dedicated for Bus Stations.</p>
               <img class="card-image" src="../../static/img/work/icon/prev.png" alt="">
               <router-link class="button" to="/icon">View Project</router-link>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <div class="card has-shadow">
+              <h1>Jose Rizal</h1>
+              <p>Contains information about Jose Rizal's life and works.</p>
+              <img class="card-image" src="../../static/img/work/rizal/prev.png" alt="">
+              <router-link class="button" to="/joserizal">View Project</router-link>
             </div>
           </div>
         </div>
