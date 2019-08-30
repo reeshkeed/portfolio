@@ -1,4 +1,4 @@
-# Portfolio Source Code
+# Girish Daloso
 
 Website link: https://girishdaloso.me/
 
