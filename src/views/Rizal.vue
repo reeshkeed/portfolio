@@ -17,8 +17,8 @@
         <div class="content">
           <h2 class="subtitle">About the Project</h2>
           <p>
-            As we are completing our course, we are tasked to develop a website about Jose Rizal. This website will contain information about
-            Jose Rizal's life and works. It also aims to help our fellow students and other people research and discover something about Rizal's life.
+            As we are completing our course, we are tasked to develop a website about Jose Rizal. This website contains information about
+            Jose Rizal's life and works. It also aims to help our fellow students and other people to discover and know more about Rizal's life.
           </p>
           <p>
             It contains the details of his different characteristics, his family, his travels abroad to study, his poems, philosophies, achievements,
