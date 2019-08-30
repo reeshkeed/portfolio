@@ -54,7 +54,7 @@
 
         <div class="content">
           <h2 class="subtitle">Source</h2>
-          <p>Code is available at <a class="weblink" href="https://github.com/reeshkeed/Rizal" target="_blank">https://github.com/reeshkeed/Rizal</a></p>
+          <p>Code is available at <a class="weblink" href="https://github.com/reeshkeed/Rizal" target="_blank">Github</a></p>
         </div>
       </div>
 
