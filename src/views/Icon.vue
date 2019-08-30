@@ -22,7 +22,7 @@
             inserted. This system will provide a cheap, easy and portable way to provide internet access to the public.
           </p>
           <p>
-            <b>The machine accepts 1 peso coin, 5 peso coin, and 10 peso coin</b>. The machine can also accept both old and new versions of the coins.
+            <b>The machine accepts 1 peso coin, 5 peso coin, and 10 peso coin</b>. It can also accepts both old and new version of coins.
             1 peso coin is equal to 5 minutes of internet connection, 5 peso coin is equal to 25 minutes, and 10 peso is equal to 50 minutes.
           </p>
         </div>
