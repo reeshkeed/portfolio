@@ -1,200 +1,187 @@
-@import "variables.sass"
 @import url('https://fonts.googleapis.com/css?family=Monoton')
 
+//*** Variables ***//
+$primary: #ee3e67
+$secondary: #6f3766
+$tertiary: #5e5ca8
+$dark: #0e1e25
+$gray: #788286
+
 *
-  font-family: $font-public
+  font-family: "Public Sans webfont"
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  transition: all .2s linear
 
-h2
-  margin-top: 0
-  margin-bottom: -1rem
-
-p
-  margin-top: 2rem
-  margin-bottom: 0
-
-.small-subtitle
-  margin-bottom: 1.5rem
-  text-transform: uppercase
-  color: #cacaca
-
-.row
-  padding-bottom: 1rem
+p, li
+  font-size: 1.2rem
 
 .v-centered
 	display: flex
 	align-items: center
 
+.text-left
+  display: flex
+  justify-content: flex-start
+  flex-shrink: 0
+
+.text-right
+  display: flex
+  justify-content: flex-end
+  flex-grow: 1
+  flex-shrink: 0
+
 .text-center
   text-align: center
 
-.text-white
-  color: #fff !important
-
-.navbar-link:hover, .link:hover
-  color: $secondary
-
 .fullscreen
-  height: 100vh
+  height: 100%
 
 .line
-  background-color: #434343
+  background-color: $tertiary
   height: 0.4rem
   width: 4rem
   margin-bottom: 1rem
 
-.has-shadow
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1)
+.text-white
+  color: #fff !important
 
-.router-link-exact-active
-  color: $primary !important
-
-.card-link
-  text-decoration: none
-
-.card-title
-  font-size: 2rem
-  font-weight: 400
-
-.card-description
-  font-size: 1.2rem
-  font-weight: 100
-
-.card-box
-  position: relative
-  height: 40rem
-  overflow: hidden
-  border-radius: 0.2rem
-
-.card-image
-  height: 100%
-  width: 100%
-  background-size: cover
-  background-position: center
-  transition: all 0.7s ease
-
-.card-image:hover
-  transform: scale(1.1) rotate(1deg)
-  background-color: #aba9e7
-
-.card-content
-  position: absolute
-  top: 0
-  left: 0
-  width: -webkit-fill-available
-  padding: 6rem 4rem
-  color: #fff
-  border-radius: 1px 1px 0 0
-  z-index: 100
-
-.is-green
-  background-color: #7be0c2
-
-.is-blue
-  background-color: #8dc8ed
-
-.is-yellow
-  background-color: #eed791
-
-.is-red
-  background-color: #ec909d
-
-.first-project-wide
-  background-image: url('/static/img/projects/ipp_work.png')
-
-.second-project-wide
-  background-image: url('/static/img/projects/rizal_work.png')
-
-.third-project-wide
-  background-image: url('/static/img/projects/icon_work.png')
-
-.fourth-project-wide
-  background-image: url('/static/img/projects/xhander_work.png')
-
-.first-project
-  background-image: url('/static/img/projects/rizal.png')
-
-.first-featured
-  background-image: url('/static/img/projects/ipp.png')
-
-.second-featured
-  background-image: url('/static/img/projects/icon.png')
-
-.wide-card
-  margin-bottom: 1rem
-  border-radius: 0.2rem
-
-.wide-card:hover
-  transform: scale(1.02)
-
-.wide-card .row
-  padding-bottom: 0
-
-.wide-card-content
-  padding: 4rem
-  width: 100%
-
-.wide-image
-  padding-top: 86%
-  background-position: left
-  background-size: cover
-
-.project
-  padding: 0 5rem
-
-.brief
-  padding: 5rem 0
-
-.brief-title
-  font-size: 2.5rem
-  font-weight: 400
-  color: #434343
-
-.role
-  color: #9089c2
-  font-size: 1.2rem
-
-.project-background
-  padding: 5rem 0
+.text-dark
+  color: $dark !important
 
 .subtitle
-  color: #434343
-  font-weight: 500
+  color: $primary
+  font-size: 1rem
+  text-transform: uppercase
   margin-bottom: 1rem
 
-.description
-  font-size: 1.2rem
+.hero
+  padding: 6rem 0
+
+.illusion-cover
+  width: 100%
+  justify-content: center
+  align-items: center
+  position: absolute
+  overflow: hidden
+  left: 0
+  top: 0
+  z-index: 1
+
+.button
+  border: 0
+  color: #fff
+  cursor: pointer
+  text-decoration: none
+  padding: 0.8rem 1.3rem
+  border-radius: 0.25rem
+  display: inline-block
+  background-color: $primary
+
+.is-light-nav .navbar-link, .is-light-nav .burger span
+  color: $dark
+  border-color: $dark
+
+.col-lg-6, .col-md-6, .col-sm-6
+  height: 100%
+
+.card
+  height: 100%
+  padding: 3rem
+  border-radius: 0.3rem
+  background-color: #f3f3f4
+
+.card > h1, .card > p
+  margin: 0.7rem
+
+.card > .button
+  margin: 0.5rem
+
+.card > p
+  font-size: 1.1rem
+  margin-bottom: 2rem
   font-weight: 200
-  color: #434343
+
+.card-image
+  width: 100%
+  margin-bottom: 1.5rem
+
+.has-shadow
+  box-shadow: 0 0 0 1px rgba(255,255,255,.1), 0 2px 4px 0 rgba(14,30,37,.12)
+
+.badges
+  display: inline-flex
+
+.badge
+  height: 2rem
+  width: 2.02rem
+  display: block
+  margin: 0.3rem
+
+.photoshop
+  background: url('../static/img/badge-ps.png')
+  background-size: cover
+
+.illustrator
+  background: url('../static/img/badge-ai.png')
+  background-size: cover
+
+.is-mint-green
+  background-color: #6dacbb
+
+.is-light-blue
+  background-color: #7ca4d6
+
+.is-violet
+  background-color: #aa81af
+
+.is-light-red
+  background-color: #e2988c
+
+.iparentportal p, .iparentportal li, .icon p, .icon li, .rizal p, .rizal li
+  font-weight: 200
   line-height: 1.6rem
-  margin-top: 0
-  margin-bottom: 2rem
 
-.tools
-  font-size: 1.2rem
-  color: #434343
+.project-title
+  margin: 0
+  font-size: 3rem
+
+.project-position
+  margin: 0
+  font-size: 1.7rem
   font-weight: 200
-  margin-bottom: 2rem
 
-.view
-  border-radius: 1rem
+.project-container
+  padding: 10rem 0 4rem
+
+.project-img
   width: 100%
 
-.link
-  color: #aba9e7
+.content
+  padding: 0 8rem
+  padding-bottom: 2rem
+
+.weblink
+  color: $tertiary
   text-decoration: none
 
-.slide-fade-enter-active
-  transition: all .3s ease
+.weblink:hover
+  color: $primary
+  text-decoration: underline
 
-.slide-fade-leave-active
-  transition: all .3s ease
+.navigation
+  padding: 2rem 0
+  display: flex
 
-.slide-fade-enter, .slide-fade-leave-to
-  transform: translateY(10px)
-  opacity: 0
+.navigation-control
+  width: auto
+  color: $gray
+  text-decoration: none
+
+.navigation-control:hover
+  color: $dark
+
+.navigation-control span
+  margin: 0.5rem
 
 @media (min-width: 1408px)
   .container
@@ -203,6 +190,9 @@ p
 @media (min-width: 1216px) and (max-width: 1407px)
   .container
     width: 65rem
+
+  .card > h1
+    font-size: 1.7rem
 
 @media (min-width: 1024px) and (max-width: 1215px)
   .container
@@ -216,17 +206,21 @@ p
   .col-xs-12, .col-xs-offset-0, .col-xs-offset-1, .col-xs-offset-2,
   .col-xs-offset-3, .col-xs-offset-4, .col-xs-offset-5, .col-xs-offset-6,
   .col-xs-offset-7, .col-xs-offset-8, .col-xs-offset-9, .col-xs-offset-10,
-  .col-xs-offset-11, .col-xs-offset-12
+  .col-xs-offset-11, .col-xs-offset-12, .col-md-6
     padding: 0.5rem
 
-  .wide-card .col-xs-12
-    padding-bottom: 0
+  .card
+    padding: 3.3rem 2.3rem
 
-  .wide-card-content
-    padding-bottom: 0
+  .card > h1
+    font-size: 1.7rem
 
-  .wide-image
-    margin-left: 2rem
+  .button
+    padding: 0.7rem 1rem
+
+  .content
+    padding: 0 7rem
+    padding-bottom: 2rem
 
 @media (min-width: 769px) and (max-width: 1023px)
   .container
@@ -243,16 +237,60 @@ p
   .col-xs-offset-11, .col-xs-offset-12
     padding: 0.5rem
 
-  .wide-card .col-xs-12
-    padding-bottom: 0
+  .button
+    padding: 0.7rem 1rem
 
-  .wide-card-content
-    padding-bottom: 0
+  .card
+    padding: 4rem 3rem
 
-  .wide-image
-    margin-left: 2rem
+  .card > h1
+    font-size: 1.7rem
 
-@media (max-width: 768px)
+  .project-title
+    font-size: 2.7rem
+
+  .project-position
+    font-size: 1.5rem
+
+  .content
+    padding: 0 3rem
+    padding-bottom: 2rem
+
+@media (min-width: 569px) and (max-width: 768px)
+  .container
+    width: 35rem
+
+  .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5,
+  .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11,
+  .col-xs-12, .col-xs-offset-0, .col-xs-offset-1, .col-xs-offset-2,
+  .col-xs-offset-3, .col-xs-offset-4, .col-xs-offset-5, .col-xs-offset-6,
+  .col-xs-offset-7, .col-xs-offset-8, .col-xs-offset-9, .col-xs-offset-10,
+  .col-xs-offset-11, .col-xs-offset-12
+    padding: 0.4rem
+
+  .button
+    padding: 0.7rem 1rem
+
+  .card
+    padding: 1.4rem
+
+  .card h1
+    font-size: 1.7rem
+
+  .badge
+    height: 1.5rem
+    width: 1.5rem
+
+  .project-title
+    font-size: 2.3rem
+
+  .project-position
+    font-size: 1.3rem
+
+  .content
+    padding: 0 0 2rem
+
+@media (max-width: 568px)
   .container
     width: 20rem
 
@@ -266,7 +304,7 @@ p
   .col-xs-offset-3, .col-xs-offset-4, .col-xs-offset-5, .col-xs-offset-6,
   .col-xs-offset-7, .col-xs-offset-8, .col-xs-offset-9, .col-xs-offset-10,
   .col-xs-offset-11, .col-xs-offset-12
-    padding: 0.5rem
+    padding: 0.4rem
 
   h2
     margin-bottom: -0.5rem
@@ -278,26 +316,34 @@ p
     height: 0.3rem
     width: 2rem
 
-  .mobile-hidden
-    display: none
+  .button
+    padding: 0.7rem 0.9rem
+    font-size: 0.9rem
+
+  .card
+    padding: 1.8rem 1.2rem
+
+  .card > h1
+    margin: 0.5rem
+    font-size: 1.5rem
+
+  .card > p
+    margin: 0.5rem
+    font-size: 1rem
+    margin-bottom: 1.3rem
 
   .card-image
-    background-position: left
+    margin-bottom: 0.6rem
 
-  .card-image:hover
-    transform: none
+  .badge
+    height: 1.3rem
+    width: 1.3rem
 
-  .wide-card .col-xs-12
-    padding-bottom: 0
+  .project-title
+    font-size: 2rem
 
-  .wide-card-content
-    padding-bottom: 0
+  .project-position
+    font-size: 1.2rem
 
-  .wide-image
-    margin-left: 2rem
-
-  .project
-    padding: 0
-
-  .description, .tools
-    font-size: 1.1rem
+  .content
+    padding: 0 0 2rem
