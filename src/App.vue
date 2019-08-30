@@ -43,9 +43,9 @@
           <router-link class="footer-link" to="/contact">Contact</router-link>
         </div>
 
-        <a class="footer-icon" href="https://github.com/reeshkeed" target="_blank"><span class="icon-github"></span></a>
-        <a class="footer-icon" href="https://www.linkedin.com/in/girishdaloso/" target="_blank"><span class="icon-linkedin"></span></a>
-        <a class="footer-icon" href="https://twitter.com/reeshkeed" target="_blank"><span class="icon-twitter"></span></a>
+        <a class="footer-icon" href="https://github.com/reeshkeed" target="_blank" rel="noopener"><span class="icon-github"></span></a>
+        <a class="footer-icon" href="https://www.linkedin.com/in/girishdaloso/" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a>
+        <a class="footer-icon" href="https://twitter.com/reeshkeed" target="_blank" rel="noopener"><span class="icon-twitter"></span></a>
 
         <p class="footer-rights">Reeshkeed © 2019</p>
       </div>

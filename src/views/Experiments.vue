@@ -28,7 +28,7 @@
               </div>
 
               <img class="card-image" src="../../static/img/browser-mockup.png" alt="">
-              <a class="button" href="https://drive.google.com/open?id=1S-ZgsNRI1JR0tODuYNXUO50JDMqds-Yb" target="_blank">Download</a>
+              <a class="button" href="https://drive.google.com/open?id=1S-ZgsNRI1JR0tODuYNXUO50JDMqds-Yb" target="_blank" rel="noopener">Download</a>
             </div>
           </div>
 
@@ -42,7 +42,7 @@
               </div>
 
               <img class="card-image" src="../../static/img/photoshop-mockup.png" alt="">
-              <a class="button" href="https://drive.google.com/open?id=13zoLZs2oNfDueC1KtP4rKtz0Ju_5HDOn" target="_blank">Download</a>
+              <a class="button" href="https://drive.google.com/open?id=13zoLZs2oNfDueC1KtP4rKtz0Ju_5HDOn" target="_blank" rel="noopener">Download</a>
             </div>
           </div>
 
@@ -56,7 +56,7 @@
               </div>
 
               <img class="card-image" src="../../static/img/atom-mockup.png" alt="">
-              <a class="button" href="https://drive.google.com/open?id=1bdQk6NCqKX6VU3i6m2lkTBM1uRDY_aK3" target="_blank">Download</a>
+              <a class="button" href="https://drive.google.com/open?id=1bdQk6NCqKX6VU3i6m2lkTBM1uRDY_aK3" target="_blank" rel="noopener">Download</a>
             </div>
           </div>
 
@@ -70,7 +70,7 @@
               </div>
 
               <img class="card-image" src="../../static/img/phone-mockup.png" alt="">
-              <a class="button" href="https://drive.google.com/open?id=1xOkj2qAbTRucnn4lfKbJRAMZu-9srO4i" target="_blank">Download</a>
+              <a class="button" href="https://drive.google.com/open?id=1xOkj2qAbTRucnn4lfKbJRAMZu-9srO4i" target="_blank" rel="noopener">Download</a>
             </div>
           </div>
         </div>

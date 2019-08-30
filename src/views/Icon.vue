@@ -87,7 +87,7 @@
           <h2 class="subtitle">Want to build your own?</h2>
           <p>
             This tutorial can help you get started
-            <a class="weblink" href="https://pimylifeup.com/raspberry-pi-captive-portal/" target="_blank">Raspberry Pi Captive Portal</a>
+            <a class="weblink" href="https://pimylifeup.com/raspberry-pi-captive-portal/" target="_blank" rel="noopener">Raspberry Pi Captive Portal</a>
           </p>
         </div>
 
@@ -95,7 +95,7 @@
           <h2 class="subtitle">Source</h2>
           <p>
             Portal source code available at
-            <a class="weblink" href="https://github.com/reeshkeed/iCon-v2" target="_blank">Github</a>
+            <a class="weblink" href="https://github.com/reeshkeed/iCon-v2" target="_blank" rel="noopener">Github</a>
           </p>
         </div>
       </div>

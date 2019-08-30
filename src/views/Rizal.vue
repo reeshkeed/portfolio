@@ -49,12 +49,12 @@
 
         <div class="content">
           <h2 class="subtitle">Website</h2>
-          <p>This site is hosted at <a class="weblink" href="https://joserizal.girishdaloso.me/" target="_blank">https://joserizal.girishdaloso.me/</a></p>
+          <p>This site is hosted at <a class="weblink" href="https://joserizal.girishdaloso.me/" target="_blank" rel="noopener">https://joserizal.girishdaloso.me/</a></p>
         </div>
 
         <div class="content">
           <h2 class="subtitle">Source</h2>
-          <p>Code is available at <a class="weblink" href="https://github.com/reeshkeed/Rizal" target="_blank">Github</a></p>
+          <p>Code is available at <a class="weblink" href="https://github.com/reeshkeed/Rizal" target="_blank" rel="noopener">Github</a></p>
         </div>
       </div>
 
