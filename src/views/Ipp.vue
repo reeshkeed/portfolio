@@ -21,7 +21,7 @@
             parents, and student's experience.
           </p>
           <p>
-            To showcase their products, I am ask to create and redesign their existing front-facing website.
+            To showcase their products, I am tasked to create and redesign their existing front-facing website.
           </p>
         </div>
 

@@ -17,14 +17,13 @@
         <div class="content">
           <h2 class="subtitle">About the Project</h2>
           <p>
-            iCon is a wi-fi vending machine dedicated for Bus Stations. Through this system, bus station passengers can access internet connection
-            by inserting a coin. Afterwards, it will give time on to use depending on the coin that was inserted. This system will provide an
-            easy internet access to bus stations passenger.
+            iCon is a wi-fi vending machine dedicated for Bus Stations. Through this system, bus stations can provide passengers access to the
+            internet that can be paid easily by inserting a coin. Passengers will be given timed access depending on the amount of coins that was
+            inserted. This system will provide a cheap, easy and portable way to provide internet access to the public.
           </p>
           <p>
-            <b>The machine accepts 1 peso coin, 5 peso coin, and 10 peso coin</b>. Both old version of coins and new version of coins the machine can
-            accepts. 1 peso coin is equal to 5 minutes of internet connection, 5 peso coin is equal to 25 minutes, and 10 peso is equal
-            to 50 minutes.
+            <b>The machine accepts 1 peso coin, 5 peso coin, and 10 peso coin</b>. The machine can also accept both old and new versions of the coins.
+            1 peso coin is equal to 5 minutes of internet connection, 5 peso coin is equal to 25 minutes, and 10 peso is equal to 50 minutes.
           </p>
         </div>
 
