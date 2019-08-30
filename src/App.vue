@@ -4,7 +4,7 @@
     <nav class="navbar">
       <div class="container" :class="{ 'is-light-nav': $route.meta.isLightNav } ">
         <div class="navbar-menu">
-          <router-link class="navbar-logo" to="/"
+          <router-link class="navbar-logo" to="/" aria-label="Girish Daloso Logo"
             ><img class="logo" src="../static/img/logo.svg" alt=""
           /></router-link>
 
@@ -33,7 +33,7 @@
     <!-- Footer -->
     <div class="footer">
       <div class="container text-center">
-        <router-link to="/">
+        <router-link to="/" aria-label="Girish Daloso Logo">
           <img class="footer-logo" src="../static/img/logo.svg" alt="">
         </router-link>
         <div class="footer-items">
@@ -43,9 +43,9 @@
           <router-link class="footer-link" to="/contact">Contact</router-link>
         </div>
 
-        <a class="footer-icon" href="https://github.com/reeshkeed" target="_blank" rel="noopener"><span class="icon-github"></span></a>
-        <a class="footer-icon" href="https://www.linkedin.com/in/girishdaloso/" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a>
-        <a class="footer-icon" href="https://twitter.com/reeshkeed" target="_blank" rel="noopener"><span class="icon-twitter"></span></a>
+        <a class="footer-icon" href="https://github.com/reeshkeed" aria-label="Github account link" target="_blank" rel="noopener"><span class="icon-github"></span></a>
+        <a class="footer-icon" href="https://www.linkedin.com/in/girishdaloso/" aria-label="Linkedin account link" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a>
+        <a class="footer-icon" href="https://twitter.com/reeshkeed" aria-label="Twitter account link" target="_blank" rel="noopener"><span class="icon-twitter"></span></a>
 
         <p class="footer-rights">Reeshkeed © 2019</p>
       </div>

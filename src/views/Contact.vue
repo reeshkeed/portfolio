@@ -10,9 +10,9 @@
           <div class="col-lg col-md col-sm col-xs">
             <p class="subtitle">Get in touch</p>
             <p><a href="mailto:girishdaloso@hotmail.com" id="email">girishdaloso@hotmail.com</a></p>
-            <a class="icon" href="https://github.com/reeshkeed" target="_blank" rel="noopener"><span class="icon-github"></span></a>
-            <a class="icon" href="https://www.linkedin.com/in/girishdaloso/" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a>
-            <a class="icon" href="https://twitter.com/reeshkeed" target="_blank" rel="noopener"><span class="icon-twitter"></span></a>
+            <a class="icon" href="https://github.com/reeshkeed" aria-label="Github account link" target="_blank" rel="noopener"><span class="icon-github"></span></a>
+            <a class="icon" href="https://www.linkedin.com/in/girishdaloso/" aria-label="Linkedin account link" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a>
+            <a class="icon" href="https://twitter.com/reeshkeed" aria-label="Twitter account link" target="_blank" rel="noopener"><span class="icon-twitter"></span></a>
           </div>
         </div>
       </div>
