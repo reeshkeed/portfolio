@@ -47,7 +47,7 @@
         <a class="footer-icon" href="https://www.linkedin.com/in/girishdaloso/" aria-label="Linkedin account link" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a>
         <a class="footer-icon" href="https://twitter.com/reeshkeed" aria-label="Twitter account link" target="_blank" rel="noopener"><span class="icon-twitter"></span></a>
 
-        <p class="footer-rights">Reeshkeed © 2019</p>
+        <p class="footer-rights">Reeshkeed © 2021</p>
       </div>
     </div>
 
