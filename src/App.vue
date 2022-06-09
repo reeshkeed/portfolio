@@ -1,72 +1,57 @@
 <template>
   <div id="app">
-    <!-- Navbar -->
-    <nav class="navbar" @click="toggleMenu">
-      <div class="container" :class="{ 'is-light-nav': $route.meta.isLightNav } ">
-        <div class="navbar-menu">
-          <router-link class="navbar-logo" to="/" aria-label="Girish Daloso Logo"
-            ><img class="logo" src="../static/img/logo.svg" alt=""
-          /></router-link>
+    <div class="hero">
+      <div class="d-flex">
+        <img
+          class="logo"
+          src="../static/img/logo.svg"
+          alt="Girish Daloso, Web Developer, Software Engineer"
+        />
 
-          <div class="burger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-
-        <div class="navbar-items" :class="{ 'active': menuVisible} ">
-          <router-link class="navbar-link" to="/">Home</router-link>
-          <router-link class="navbar-link" to="/work">Work</router-link>
-          <router-link class="navbar-link" to="/experiments">Experiments</router-link>
-          <router-link class="navbar-link" to="/contact">Contact</router-link>
+        <div class="rk-text d-flex">
+          <p>REESH</p>
+          <p>KEED</p>
         </div>
       </div>
-    </nav>
 
-    <router-view/>
+      <a class="email" href="mailto:hello@girishdaloso.com"
+        >hello@girishdaloso.com</a
+      >
 
-    <div class="container">
-      <div class="line"></div>
-    </div>
+      <div class="icons d-flex">
+        <a
+          href="https://github.com/reeshkeed"
+          aria-label="Github account link"
+          target="_blank"
+          rel="noopener"
+          ><span class="icon-github"></span
+        ></a>
 
-    <!-- Footer -->
-    <div class="footer">
-      <div class="container text-center">
-        <router-link to="/" aria-label="Girish Daloso Logo">
-          <img class="footer-logo" src="../static/img/logo.svg" alt="">
-        </router-link>
-        <div class="footer-items">
-          <router-link class="footer-link" to="/">Home</router-link>
-          <router-link class="footer-link" to="/work">Work</router-link>
-          <router-link class="footer-link" to="/experiments">Experiments</router-link>
-          <router-link class="footer-link" to="/contact">Contact</router-link>
-        </div>
-
-        <a class="footer-icon" href="https://github.com/reeshkeed" aria-label="Github account link" target="_blank" rel="noopener"><span class="icon-github"></span></a>
-        <a class="footer-icon" href="https://www.linkedin.com/in/girishdaloso/" aria-label="Linkedin account link" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a>
-        <a class="footer-icon" href="https://twitter.com/reeshkeed" aria-label="Twitter account link" target="_blank" rel="noopener"><span class="icon-twitter"></span></a>
-
-        <p class="footer-rights">Reeshkeed © 2021</p>
+        <a
+          href="https://www.linkedin.com/in/girishdaloso/"
+          aria-label="Linkedin account link"
+          target="_blank"
+          rel="noopener"
+          ><span class="icon-linkedin"></span
+        ></a>
       </div>
     </div>
-
   </div>
 </template>
 
 <script>
 export default {
-  name: "App",
+  name: 'App',
 
   data: () => ({
-    menuVisible: false
+    menuVisible: false,
   }),
 
   methods: {
-    toggleMenu () {
-      this.menuVisible = !this.menuVisible
-    }
-  }
+    toggleMenu() {
+      this.menuVisible = !this.menuVisible;
+    },
+  },
 };
 </script>
 
@@ -74,131 +59,143 @@ export default {
 @import "/assets/sass/app.sass"
 @import "../static/style.css"
 
-.navbar
-  padding: 3rem 0
-  align-items: stretch
-  display: flex
-  position: relative
-  z-index: 4
+*
+  transition: .2s
+  transition-timing-function: ease-in
 
-.navbar > .container
-  align-items: stretch
+.d-flex
   display: flex
 
-.navbar-menu
-  align-items: stretch
+.hero
+  background-image: url("../static/img/silhouette.svg")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+  justify-content: center
+  flex-direction: column
+  align-items: center
   display: flex
-  justify-content: flex-start
-  margin-right: auto
+  height: 100vh
 
 .logo
-  height: 2.7rem
+  height: 6rem
+  width: 6rem
 
-.navbar-logo
-  align-items: stretch
-  display: flex
-  flex-shrink: 0
+.rk-text
+  justify-content: center
+  flex-direction: column
+  color: #FFFFFF
+  margin-left: 0.5rem
 
-.navbar-link
-  font-size: 0.9rem
-  color: #fff
+  p
+    font-family: 'Monoton', cursive
+    font-size: 3rem
+    line-height: 3rem
+    margin: 0
+
+.email
+  letter-spacing: 0.2rem
   text-decoration: none
-  text-transform: uppercase
-  font-weight: 400
-  padding-left: 3rem
-
-.navbar-items
-  align-items: stretch
-  display: flex
-  flex-grow: 1
-  flex-shrink: 0
-  justify-content: flex-end
-  margin-left: auto
-  align-items: center
-
-.burger
-  display: none
-  justify-content: flex-end
-  margin-left: auto
-
-.router-link-exact-active
-  color: $primary !important
-
-.navbar-link:hover, .link:hover
-  color: $tertiary
-
-.footer
-  padding: 4rem 0
-
-.footer-logo
-  height: 3rem
-
-.footer-items
-  padding: 2rem 0
-
-.footer-link
-  margin: 0.6rem
-  text-decoration: none
-  color: $gray
-
-.footer-link:hover, .footer-icon:hover
-  color: $dark
-
-.footer-icon
-  margin: 1rem
-  font-size: 2rem
-  color: $gray
-  text-decoration: none
-
-.footer-rights
-  font-size: 0.9rem
+  margin-top: 0.5rem
+  font-size: 1rem
   font-weight: 100
-  margin: 1.5rem 0
+  color: #FFFFFF
 
-@media (max-width: 768px)
-  .navbar-logo
-    justify-content: flex-start
-    margin-right: auto
+  &:hover
+    text-decoration: underline
 
-  .navbar > .container
-    display: initial
+.icons
+  position: absolute
+  bottom: 0
 
-  .navbar-link
-    display: block
-    padding-left: 0
-    padding-top: 0.8rem
-    padding-bottom: 0.8rem
-    color: #434343
+  a
+    color: $dark-tertiary
+    text-decoration: none
+    margin: 1rem 0.4rem
+    font-size: 1.7rem
 
-  .burger
-    justify-content: flex-end
-    box-sizing: border-box
-    display: block
-    height: 52px
-    width: 52px
-    padding: 10px
-    cursor: pointer
-    margin-left: auto
+    &:hover
+      color: #FFF
 
-  .burger span
-    border-top: 2px solid #fff
-    display: block
-    height: 8px
-    width: 100%
+@media (min-width: 569px) and (max-width: 768px)
+  .logo
+    height: 7rem
+    width: 7rem
 
-  .navbar-items
-    display: block
-    position: absolute
-    left: 0
-    right: 0
-    text-align: center
-    z-index: 2
-    max-height: 0px
-    overflow-y: hidden
-    background-color: #fff
-    box-shadow: 0px 7px 7px 0 rgba(32, 33, 36, 0.14)
-    transition: height, 0.5s ease
+  .rk-text p
+    font-size: 3.2rem
+    line-height: 3.2rem
 
-  .navbar-items.active
-    max-height: 500px
+  .email
+    font-size: 1.1rem
+
+  .icons a
+    margin: 1rem 0.5rem
+    font-size: 1.8rem
+
+@media (min-width: 769px) and (max-width: 1023px)
+  .logo
+    height: 8rem
+    width: 8rem
+
+  .rk-text p
+    font-size: 3.5rem
+    line-height: 3.5rem
+
+  .email
+    font-size: 1.2rem
+
+  .icons a
+    margin: 1rem 0.5rem
+    font-size: 2rem
+
+
+@media (min-width: 1024px) and (max-width: 1215px)
+  .logo
+    height: 9rem
+    width: 9rem
+
+  .rk-text p
+    font-size: 4rem
+    line-height: 4rem
+
+  .email
+    font-size: 1.2rem
+
+  .icons a
+    margin: 1rem 0.5rem
+    font-size: 2rem
+
+@media (min-width: 1216px) and (max-width: 1407px)
+  .logo
+    height: 10rem
+    width: 10rem
+
+  .rk-text p
+    font-size: 4.5rem
+    line-height: 4.5rem
+
+  .email
+    font-size: 1.5rem
+
+  .icons a
+    margin: 1rem 0.5rem
+    font-size: 2rem
+
+@media (min-width: 1408px)
+  .logo
+    height: 11rem
+    width: 11rem
+
+  .rk-text p
+    font-size: 5rem
+    line-height: 5rem
+
+  .email
+    font-size: 1.6rem
+
+  .icons a
+    margin: 1rem 0.5rem
+    font-size: 2rem
 </style>

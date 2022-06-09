@@ -1,8 +1,9 @@
 # Girish Daloso
 
-Website link: https://girishdaloso.me/
+Website link: https://girishdaloso.com/
 
 ## Project setup
+
 ```
 npm install
 
