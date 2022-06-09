@@ -62,6 +62,13 @@ export default new Router({
       meta: {
         isLightNav: false
       }
+    },
+    {
+      path: '*',
+      component: () => import('./views/404.vue'),
+      meta: {
+        isLightNav: true
+      }
     }
   ],
 

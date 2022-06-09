@@ -42,12 +42,12 @@
 
         <div class="content">
           <h2 class="subtitle">Website</h2>
-          <p>Visit website at <a class="weblink" href="https://www.iparentportal.com" target="_blank" rel="noopener">https://www.iparentportal.com</a></p>
+          <p>Visit website at <a class="weblink line-through" href="https://www.iparentportal.com" target="_blank" rel="noopener">https://www.iparentportal.com</a></p>
         </div>
 
         <div class="content">
           <h2 class="subtitle">Disclaimer</h2>
-          <p>All SVG images is created by my Senior <a class="weblink" href="https://github.com/thestoneoflapiz" target="_blank" rel="noopener">Ms. Levi Hernandez</a></p>
+          <p>All SVG images is created by my Senior <a class="weblink" href="https://www.linkedin.com/in/levi-hernandez-95b916203/" target="_blank" rel="noopener">Ms. Levi Hernandez</a></p>
         </div>
       </div>
 
@@ -82,5 +82,8 @@ export default {
 
 .line
   background: #fff
+
+.line-through
+  text-decoration: line-through
 
 </style>
