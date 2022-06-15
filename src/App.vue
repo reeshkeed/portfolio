@@ -2,11 +2,8 @@
   <div id="app">
     <div class="hero">
       <div class="d-flex">
-        <img
-          class="logo"
-          src="../static/img/logo.svg"
-          alt="Girish Daloso, Web Developer, Software Engineer"
-        />
+        <!-- Logo animation component -->
+        <LogoAnimation />
 
         <div class="rk-text d-flex">
           <p>REESH</p>
@@ -40,8 +37,12 @@
 </template>
 
 <script>
+import LogoAnimation from './components/LogoAnimation.vue';
+
 export default {
   name: 'App',
+
+  components: { LogoAnimation },
 
   data: () => ({
     menuVisible: false,
@@ -59,10 +60,6 @@ export default {
 @import "/assets/sass/app.sass"
 @import "../static/style.css"
 
-*
-  transition: .2s
-  transition-timing-function: ease-in
-
 .d-flex
   display: flex
 
@@ -77,10 +74,6 @@ export default {
   align-items: center
   display: flex
   height: 100vh
-
-.logo
-  height: 6rem
-  width: 6rem
 
 .rk-text
   justify-content: center
@@ -119,9 +112,6 @@ export default {
       color: #FFF
 
 @media (min-width: 569px) and (max-width: 768px)
-  .logo
-    height: 7rem
-    width: 7rem
 
   .rk-text p
     font-size: 3.2rem
@@ -135,10 +125,6 @@ export default {
     font-size: 1.8rem
 
 @media (min-width: 769px) and (max-width: 1023px)
-  .logo
-    height: 8rem
-    width: 8rem
-
   .rk-text p
     font-size: 3.5rem
     line-height: 3.5rem
@@ -150,12 +136,7 @@ export default {
     margin: 1rem 0.5rem
     font-size: 2rem
 
-
 @media (min-width: 1024px) and (max-width: 1215px)
-  .logo
-    height: 9rem
-    width: 9rem
-
   .rk-text p
     font-size: 4rem
     line-height: 4rem
@@ -168,10 +149,6 @@ export default {
     font-size: 2rem
 
 @media (min-width: 1216px) and (max-width: 1407px)
-  .logo
-    height: 10rem
-    width: 10rem
-
   .rk-text p
     font-size: 4.5rem
     line-height: 4.5rem
@@ -184,10 +161,6 @@ export default {
     font-size: 2rem
 
 @media (min-width: 1408px)
-  .logo
-    height: 11rem
-    width: 11rem
-
   .rk-text p
     font-size: 5rem
     line-height: 5rem
